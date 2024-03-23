@@ -1,15 +1,13 @@
 import pyaudio
 import wave
 import numpy as np
-import subprocess
 import whisper
 import os
-import datetime
 
 
 class AudioRecorder:
     def __init__(self, format=pyaudio.paInt16, channels=1, rate=44100, chunk_size=1024, silence_threshold=500,
-                 silence_duration=3):
+                 silence_duration=2):
         self.format = format
         self.channels = channels
         self.rate = rate
@@ -76,7 +74,7 @@ if __name__ == "__main__":
         text = transcribe_audio(wav_filename)
 
         # Save transcription to a text file
-        text_filename = 'tejEats.txt'#datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + "_transcription.txt"
+        text_filename = 'audio-extraction/tejEats.txt'  #datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + "_transcription.txt"
         with open(text_filename, 'w') as f:
             f.write(text)
         print(f"Transcription saved to {text_filename}")
