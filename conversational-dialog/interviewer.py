@@ -19,7 +19,7 @@ from audioToText import transcribe_audio
 
 class Interviewer:
     # Constructor
-    def __init__(self):
+    def __init__(self,persona:str):
         # Creating the OpenAI client
         load_dotenv() # Loading the key from the environment
         self.client_openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
@@ -30,6 +30,12 @@ class Interviewer:
 
         # Creating the recorder object
         self.recorder = AudioRecorder()
+
+        # Storing the persona
+        self.persona = persona
+
+        # Adding the persona
+        self.history.append({'role':'user','content':self.persona})
     
     # Function for speech to text
     def text_to_speech(self,text:str):
@@ -89,6 +95,10 @@ class Interviewer:
 
 # Main Method for testing
 if __name__ == '__main__':
+    # Getting the test prompt
+    with open('test-persona-prompt.txt','r') as file:
+        persona = file.read()
+
     # Creating the object
-    interviewer = Interviewer()
+    interviewer = Interviewer(persona)
     interviewer.main()
