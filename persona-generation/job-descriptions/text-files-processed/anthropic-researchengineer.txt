@@ -1,0 +1,43 @@
+# Job Overview
+
+- Research Engineer role at Anthropic, an AI safety and research company
+- Focus on building large-scale, safe, reliable, interpretable, and steerable AI systems
+- Interdisciplinary team with experience in ML, physics, policy, business, and product
+
+# Responsibilities
+
+- Work on all parts of the code and infrastructure, including cluster reliability, throughput optimization, scientific experiments, and dev tooling
+- Write code with an understanding of the research context and importance
+
+# Qualifications
+
+- Significant software engineering experience
+- Results-oriented, flexible, and impact-driven
+- Willing to take on tasks outside job description
+- Enjoy pair programming and want to learn about ML research
+- Care about the societal impacts of work
+
+# Preferred Experience
+
+- High-performance, large-scale ML systems
+- GPUs, Kubernetes, PyTorch, or OS internals
+- Language modeling with transformers
+- Reinforcement learning
+- Large-scale ETL
+
+# Representative Projects
+
+- Optimizing throughput of attention mechanisms
+- Comparing compute efficiency of Transformer variants
+- Creating datasets for models
+- Scaling distributed training to thousands of GPUs
+- Designing fault tolerance strategies
+- Visualizing attention in language models
+
+# Salary and Benefits
+
+- Expected salary range: $280k - $600k USD
+- Competitive equity compensation
+- Comprehensive health, dental, vision, and retirement benefits
+- Generous paid parental leave and unlimited PTO
+- Relocation support and other perks
