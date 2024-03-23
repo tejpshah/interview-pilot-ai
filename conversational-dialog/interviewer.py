@@ -79,7 +79,8 @@ class Interviewer:
         done = False
         while not done:
             initial_text = self.speech_to_text()
-            if initial_text.lower() == 'i am done':
+
+            if initial_text.lower().strip(' ') == 'i am done.':
                 done = True
             # Getting response
             self.text_to_text(initial_text)
