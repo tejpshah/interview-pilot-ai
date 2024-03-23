@@ -6,10 +6,11 @@ we have a POC of using it.
 
 """
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
-client = OpenAI(
-    api_key=''
-)
+load_dotenv() # Loading the key from the environment
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 response = client.audio.speech.create(
     model="tts-1",
     voice="alloy",
