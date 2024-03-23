@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # The .env for POCs
-conversational-dialog/test-files/.env
+conversational-dialog/.env
 
 # C extensions
 *.so
