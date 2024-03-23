@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# The .env for POCs
+conversational-dialog/test-files/.env
+
 # C extensions
 *.so
 
