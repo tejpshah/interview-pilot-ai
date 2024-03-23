@@ -1,0 +1,134 @@
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 1/6Simplify6 of 28 keywords
+are present in your resumeBeta21%
+resume match
+Meta Platforms, Inc. (Meta), formerly known as Facebook, Inc., builds technologies that help 
+people connect, find communities, and grow businesses. When Facebook launched in 2004, 
+it changed the way people connect. Apps and services like Messenger, Instagram, 
+WhatsApp, and Novi further empowered billions around the world. Now, Meta is moving 
+beyond 2D screens towards immersive experiences like augmented and virtual reality to 
+help build the next evolution in social technology. 
+Instructions on how to apply, click “Apply to Job” online on this web page.
+Software Engineer, Machine Learning Responsibilities
+Research, design, develop, and test operating systems-level software, compilers, and
+network distribution software for massive social data and prediction problems.
+Have industry experience working on a range of ranking, classification, recommendation,
+and optimization problems, e.g. payment fraud, click-through or conversion rate
+prediction, click-fraud detection, ads/feed/search ranking, text/sentiment classification,
+collaborative filtering/recommendation, or spam detection.
+Working on problems of moderate scope, develop highly scalable systems, algorithms
+and tools leveraging deep learning, data regression, and rules based models.
+Suggest, collect, analyze and synthesize requirements and bottleneck in technology,
+systems, and tools.
+Develop solutions that iterate orders of magnitude with a higher efficiency, efficiently
+leverage orders of magnitude and more data, and explore state-of-the-art deep learningSoftware Engineer, Machine Learning
+Seattle, WA
+Apply to Job
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 2/6techniques.
+Receiving general instruction from supervisor, code deliverables in tandem with the
+engineering team.
+Adapt standard machine learning methods to best exploit modern parallel environments
+(e.g. distributed clusters, multicore SMP, and GPU).
+Minimum Qualifications
+Requires a Master’s degree in Computer Science, Computer Software, Computer
+Engineering, Applied Sciences, Mathematics, Physics, or related field and two years of
+work experience in the job offered or in a computer-related occupation. Requires two
+years of experience in the following:
+Machine Learning Framework(s): PyTorch, MXNet, or Tensorflow
+Machine learning, recommendation systems, computer vision, natural language
+processing, data mining, or distributed systems
+Translating insights into business recommendations
+Hadoop, HBase, Pig, MapReduce, Sawzall, Bigtable, or Spark
+Developing and debugging in C, C++ and Java
+Scripting languages: Perl, Python, PHP, or shell scripts
+C, C++, C#, or Java
+Python, PHP, or Haskell
+Relational databases and SQL
+Software development tools: Code editors (VIM or Emacs), and revision control systems
+(Subversion, GIT, or Perforce)
+Linux, UNIX, or other *nix-like OS as evidenced by file manipulation, advanced
+commands, and shell scripting
+Build highly-scalable performant solutions
+Data processing, programming languages, databases, networking, operating systems,
+computer graphics, or human-computer interaction
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 3/6Applying algorithms and core computer science concepts to real world systems as
+evidenced by recognizing and matching patterns from different areas of computer
+science in production systems
+Distributed systems
+Start preparing
+Learn about how to prepare for your interview with our interview guide, tips, and
+interactive experiences.
+Visit interview prep
+Locations
+About Meta
+Meta builds technologies that help people connect, find communities, and grow businesses.
+When Facebook launched in 2004, it changed the way people connect. Apps like Messenger,
+Data Center
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 4/6Instagram and WhatsApp further empowered billions around the world. Now, Meta is
+moving beyond 2D screens toward immersive experiences like augmented and virtual reality
+to help build the next evolution in social technology. People who choose to build their
+careers by building with us at Meta help shape a future that will take us beyond what digital
+connection makes possible today—beyond the constraints of screens, the limits of distance,
+and even the rules of physics.
+Meta is committed to providing reasonable support (called accommodations) in our
+recruiting processes for candidates with disabilities, long term conditions, mental health
+conditions or sincerely held religious beliefs, or who are neurodivergent or require
+pregnancy-related support. If you need support, please reach out to accommodations-
+ext@fb.com.
+$203,350/year to $211,484/year + bonus + equity + benefits
+ Individual pay is determined by skills, qualifications, experience, and location. 
+Compensation details listed in this posting reflect the base salary only, and do not include 
+bonus, equity or sales incentives, if applicable. In addition to base salary, Meta offers 
+benefits. Learn more about  benefits  at Meta. 
+Related Job Openings
+Manager, Software Engineering - Smart Glasses
+Sunnyvale, CA + 3 More
+Research Engineer, Language - Generative AI
+Bellevue, WA + 6 More
+Software Engineer - Product (Technical Leadership)
+Menlo Park, CA + 2 More
+Software Engineer, Machine Learning
+Seattle, WA
+Software Engineer, Product
+Seattle, WA
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 5/6Create career profile
+About us
+Company info
+NewsroomOn social
+Facebook
+InstagramSoftware Engineer, Systems
+Seattle, WA
+View All Related Jobs
+Meta is proud to be an Equal Employment Opportunity and Affirmative Action employer. We do
+not discriminate based upon race, religion, color, national origin, sex (including pregnancy,
+childbirth, reproductive health decisions, or related medical conditions), sexual orientation,
+gender identity, gender expression, age, status as a protected veteran, status as an individual with
+a disability, genetic information, political views or activity, or other applicable legally protected
+characteristics. You may view our Equal Employment Opportunity notice here. We also consider
+qualified applicants with criminal histories, consistent with applicable federal, state and local law.
+We may use your information to maintain the safety and security of Meta, its employees, and
+others as required or permitted by law. You may view Meta Pay Transparency Policy, Equal
+Employment Opportunity is the Law notice, and Notice to Applicants for Employment and
+Employees by clicking on their corresponding links. Additionally, Meta participates in the E-Verify
+program in certain locations, as required by law.
+Meta is committed to providing reasonable accommodations for qualified individuals with
+disabilities and disabled veterans in our job application procedures. If you need assistance or an
+accommodation due to a disability, you may contact us at accommodations-ext@fb.com.
+Let us know you're interested.
+Share your resume or LinkedIn profile with our recruiting team and create personalized job alerts.
+3/23/24, 3:14 PM Software Engineer, Machine Learning | Meta Careers
+https://www.metacareers.com/v2/jobs/1603425680464181/ 6/6Careers FAQs
+Looking for contractor roles?LinkedIn
+Threads
+Our policies
+Candidate privacy statement
+CookiesMore resources
+Family safety center
+Meta for business
+Meta for developers
+Report a bug
+© Meta 2024
