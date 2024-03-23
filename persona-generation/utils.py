@@ -1,4 +1,5 @@
 import os
+import re 
 from dotenv import load_dotenv
 from tqdm import tqdm
 import anthropic
@@ -84,12 +85,72 @@ def process_job_descriptions(input_folder, output_folder):
     for text_file_path in tqdm(text_file_paths, desc="Processing job descriptions"):
         process_job_description(text_file_path, output_folder)
 
+def generate_personas():
+    message = client.messages.create(
+        model="claude-3-opus-20240229",
+        max_tokens=1000,
+        temperature=0,
+        system="Create distinct personality types for an automated phone screening recruiter with different interests, conversation styles, and approaches. For each personality type, provide a one-paragraph description in markdown format (e.g., # Emma, The Enthusiastic Networker, # Liam, the MethodicalAnalyst, etc.) covering their interests, whether they are introverted or extroverted, their conversation style, and what they are like overall.\n",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Generate 6 different personality types."
+                    }
+                ]
+            }
+        ]
+    )
+
+    # Create the "personas" folder if it doesn't exist
+    personas_folder = "personas"
+    ensure_dir_exists(personas_folder)
+
+    # Save the generated personas to "base_personas.txt" in the "personas" folder
+    base_personas_file = os.path.join(personas_folder, "base_personas.txt")
+    with open(base_personas_file, "w", encoding="utf-8") as file:
+        file.write(message.content[0].text)
+
+    print(f"Generated personas and saved to {base_personas_file}")
+
+def extract_personas_from_markdown(markdown_file, output_folder):
+    # Create the output folder if it doesn't exist
+    ensure_dir_exists(output_folder)
+
+    # Read the markdown file
+    with open(markdown_file, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    # Split the content into sections based on the markdown header tags
+    sections = re.split(r"(#.*)", content)
+
+    # Process each section
+    for i in range(1, len(sections), 2):
+        header = sections[i].strip()
+        persona_name = header[2:].strip().lower().replace(" ", "-").replace(",", "")
+        persona_file = os.path.join(output_folder, f"{persona_name}.txt")
+
+        # Write the persona content to a separate file
+        with open(persona_file, "w", encoding="utf-8") as file:
+            file.write(sections[i + 1].strip())
+
+        print(f"Extracted {persona_name} and saved to {persona_file}")
+
 if __name__ == "__main__":
     input_folder = "job-descriptions/text-files"
     output_folder = "job-descriptions/text-files-processed"
 
     print("\nExtracting text from job descriptions...")
-    extract_text_from_job_descriptions()
+    # extract_text_from_job_descriptions()
 
     print("\nProcessing job descriptions...")
-    process_job_descriptions(input_folder, output_folder)
+    # process_job_descriptions(input_folder, output_folder)
+
+    print("\nGenerating personas...")
+    # generate_personas()
+
+    markdown_file = "personas/base_personas.txt"
+    output_folder = "personas/individuals"
+    extract_personas_from_markdown(markdown_file, output_folder)
