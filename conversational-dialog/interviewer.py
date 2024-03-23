@@ -76,14 +76,15 @@ class Interviewer:
     
     # Putting the agent together
     def main(self):
-        initial_text = self.speech_to_text()
-
-        # Getting response
-        self.text_to_text(initial_text)
-
-        # Say the response
-        self.text_to_speech(self.history[-1]['content'])
-
+        done = False
+        while not done:
+            initial_text = self.speech_to_text()
+            if initial_text.lower() == 'i am done':
+                done = True
+            # Getting response
+            self.text_to_text(initial_text)
+            # Say the response
+            self.text_to_speech(self.history[-1]['content'])
 
 # Main Method for testing
 if __name__ == '__main__':
