@@ -52,6 +52,35 @@ def extract_text_from_pdf(pdf_path, output_folder):
                 text_file.write(text)
     print(f"Extracted text from {pdf_filename} to {text_filename}")
 
+def extract_text_from_df_resume(resume_path, output_folder):
+    """
+    Extract text from a PDF file and save it as a text file.
+
+    Args:
+        pdf_path (str): Path to the PDF file.
+        output_folder (str): Path to the output folder.
+    """
+    pdf_filename = os.path.basename(resume_path)
+    text_filename = os.path.splitext(pdf_filename)[0] + ".txt"
+    text_folder = os.path.join(output_folder, "text-files")
+    ensure_dir_exists(text_folder)
+    text_file_path = os.path.join(text_folder, text_filename)
+
+    # Check if the text file already exists, skip if it does
+    if os.path.exists(text_file_path):
+        print(f"Skipping {pdf_filename}, text file already exists.")
+        return
+
+    with open(resume_path, "rb") as pdf_file:
+        pdf_reader = PyPDF2.PdfReader(pdf_file)
+        num_pages = len(pdf_reader.pages)
+        with open(text_file_path, "w", encoding="utf-8") as text_file:
+            for page_num in range(num_pages):
+                page = pdf_reader.pages[page_num]
+                text = page.extract_text()
+                text_file.write(text)
+    print(f"Extracted text from {pdf_filename} to {text_filename})")
+
 # Process Job Descriptions
 
 def extract_text_from_job_descriptions(job_descriptions_folder):
@@ -213,12 +242,12 @@ def create_finalized_personas(job_description, job_name, k=3, personas_folder="p
 
 # Generate Interview Questions
 
-def generate_interview_questions(job_description):
+def generate_interview_questions(job_description, k=3):
     message = client.messages.create(
         model="claude-3-sonnet-20240229",
         max_tokens=1000,
         temperature=0,
-        system="Based on the provided document, please create a list of 6 well-crafted interview questions that an interviewer could ask any candidate applying for this position. The questions should be as concise as possible, around 1 sentence, while being informative. Please use markdown formatting for the questions, following this format where each headline is the specific question:\n\n## Question 1\n\n## Question 2\n\n...\n\n## Question k",
+        system=f"Based on the provided document, please create a list of {k} well-crafted interview questions that an interviewer could ask any candidate applying for this position. The questions should be as concise as possible, around 1 sentence, while being informative. Please use markdown formatting for the questions, following this format where each headline is the specific question:\n\n## Question 1\n\n## Question 2\n\n...\n\n## Question k",
         messages=[
             {
                 "role": "user",
@@ -263,6 +292,27 @@ def save_interview_questions(df, filename, output_dir='interview-questions'):
 
     print(f"Interview questions saved to: {file_path}")
 
+# Generate interview Questions Based on Resume
+
+def generate_interview_questions_resume(resume, k=3):
+    message = client.messages.create(
+        model="claude-3-sonnet-20240229",
+        max_tokens=1000,
+        temperature=0,
+        system=f"Based on the provided document, please create a list of {k} well-crafted interview questions that an interviewer could ask this question based on resume. The questions should be as concise as possible, around 1 sentence, while being informative. Please use markdown formatting for the questions, following this format where each headline is the specific question:\n\n## Question 1\n\n## Question 2\n\n...\n\n## Question k",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": f"This is the resume:\n{resume}"
+                    }
+                ]
+            }
+        ]
+    )
+    return message.content[0].text
 
 if __name__ == "__main__":
 
@@ -287,11 +337,23 @@ if __name__ == "__main__":
     # create_finalized_personas(job_description, job_name)
 
     job_description = open("job-descriptions/text-files-processed/anthropic-researchengineer.txt", "r").read()
-    base_questions = generate_interview_questions(job_description)
-    print(base_questions)
+    #base_questions = generate_interview_questions(job_description)
+    #print(base_questions)
 
-    base_questions_df = process_interview_questions(base_questions)
-    print(base_questions_df)
+    #base_questions_df = process_interview_questions(base_questions)
+   # print(base_questions_df)
 
-    print("\nSaving interview questions...")
-    save_interview_questions(base_questions_df, "base_interview_questions.csv")
+    #print("\nSaving interview questions...")
+    #save_interview_questions(base_questions_df, "base_interview_questions.csv")
+
+
+    extract_text_from_df_resume("resumes/hirsh-ramani-resume.pdf", "resumes")
+    resume = open("resumes/text-files/hirsh-ramani-resume.txt", "r").read()
+    resume_questions = generate_interview_questions_resume(resume)
+    print(resume_questions)
+
+    resume_questions_df = process_interview_questions(resume_questions, category='resume')
+    print(resume_questions_df)
+
+    print("\nSaving resume-based interview questions...")
+    save_interview_questions(resume_questions_df, "resume_interview_questions.csv")
