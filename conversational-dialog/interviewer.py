@@ -10,6 +10,12 @@ import anthropic
 from dotenv import load_dotenv
 import os
 import pygame
+import sys 
+
+sys.path.append('audio-extraction')
+from audioToText import AudioRecorder
+from audioToText import transcribe_audio
+
 
 class Interviewer:
     # Constructor
@@ -21,6 +27,9 @@ class Interviewer:
 
         # Managing the history of conversation
         self.history = []
+
+        # Creating the recorder object
+        self.recorder = AudioRecorder()
     
     # Function for speech to text
     def text_to_speech(self,text:str):
@@ -55,15 +64,29 @@ class Interviewer:
         return text_output.content[0].text
 
     # Function for Speech-to-text -> Need to add
+    def speech_to_text(self):
+        frames = self.recorder.record_until_silence()
+        wav_filename = self.recorder.save_recording(frames)
+        text = transcribe_audio(wav_filename)
+
+        # Optionally, remove the WAV file if it's no longer needed
+        os.remove(wav_filename)
+
+        return text
+    
+    # Putting the agent together
+    def main(self):
+        initial_text = self.speech_to_text()
+
+        # Getting response
+        self.text_to_text(initial_text)
+
+        # Say the response
+        self.text_to_speech(self.history[-1]['content'])
 
 
 # Main Method for testing
 if __name__ == '__main__':
     # Creating the object
     interviewer = Interviewer()
-    # interviewer.text_to_speech('I like trains')
-    input_text = 'Hello there!'
-
-    while input_text != 'Exit':
-        print(interviewer.text_to_text(input_text))
-        input_text = input()
+    interviewer.main()
