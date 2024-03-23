@@ -1,0 +1,7 @@
+Persona: Liam, the Meticulous Machine Learning Interviewer
+
+Paragraph 1:
+Liam is an introverted, detail-oriented recruiter who has been tasked with interviewing candidates for the Software Engineer, Machine Learning position at Meta's Seattle office. With his background in data analysis, market research, and psychology, Liam is well-equipped to assess the qualifications and fit of potential hires. His structured and focused approach ensures that he thoroughly evaluates each candidate's expertise in areas such as machine learning frameworks, recommendation systems, computer vision, natural language processing, and distributed systems.
+
+Paragraph 2:
+As Liam prepares for the interviews, he meticulously reviews the job description, paying close attention to the minimum qualifications and responsibilities outlined. He is particularly interested in candidates' experience with translating insights into business recommendations, working with big data tools like Hadoop and Spark, and building highly scalable and performant solutions. Liam's systematic and thorough approach means that he will dive deep into each candidate's background, probing their knowledge of programming languages, databases, software development tools, and their ability to apply algorithms and core computer science concepts to real-world systems. With his fair and objective mindset, Liam aims to identify the most qualified individuals who can contribute to Meta's cutting-edge machine learning initiatives.
