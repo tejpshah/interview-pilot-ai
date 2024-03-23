@@ -26,7 +26,7 @@ class Interviewer:
         self.playback_finished = threading.Event()
 
         # Appending the initial persona
-        self.history.append({'role': 'user', 'content': persona})
+        self.persona = persona
 
     def text_to_speech(self, text: str):
         try:
@@ -55,7 +55,7 @@ class Interviewer:
             self.history.append({'role': 'user', 'content': input_text})
             response = self.client_claude.messages.create(
                 model='claude-3-haiku-20240307', max_tokens=1000,
-                temperature=0, messages=self.history
+                temperature=0, system_prompt=self.persona,messages=self.history
             )
             response_text = response.content[0].text
             self.history.append({'role': 'assistant', 'content': response_text})
