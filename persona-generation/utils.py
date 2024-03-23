@@ -6,12 +6,12 @@ from tqdm import tqdm
 import anthropic
 import PyPDF2
 import random
+import pandas as pd
 
-# Load environment variables
 load_dotenv()
-
-# Initialize Anthropic client
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+
+# Utility Functions
 
 def ensure_dir_exists(dir_path):
     """
@@ -51,6 +51,8 @@ def extract_text_from_pdf(pdf_path, output_folder):
                 text = page.extract_text()
                 text_file.write(text)
     print(f"Extracted text from {pdf_filename} to {text_filename}")
+
+# Process Job Descriptions
 
 def extract_text_from_job_descriptions(job_descriptions_folder):
     """
@@ -103,6 +105,8 @@ def process_job_descriptions(input_folder, output_folder):
 
     for text_file_path in tqdm(text_file_paths, desc="Processing job descriptions"):
         process_job_description(text_file_path, output_folder)
+
+# Generate Personas
 
 def generate_personas():
     message = client.messages.create(
@@ -157,10 +161,6 @@ def extract_personas_from_markdown(markdown_file, output_folder):
 
         print(f"Extracted {persona_name} and saved to {persona_file}")
 
-def ensure_dir_exists(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
 def create_job_folder(jobs_folder, job_name):
     job_folder = os.path.join(jobs_folder, job_name)
     ensure_dir_exists(job_folder)
@@ -211,6 +211,59 @@ def create_finalized_personas(job_description, job_name, k=3, personas_folder="p
             file.write(message.content[0].text)
         print(f"Created fused persona: {fused_persona_file}")
 
+# Generate Interview Questions
+
+def generate_interview_questions(job_description):
+    message = client.messages.create(
+        model="claude-3-sonnet-20240229",
+        max_tokens=1000,
+        temperature=0,
+        system="Based on the provided document, please create a list of 6 well-crafted interview questions that an interviewer could ask any candidate applying for this position. The questions should be as concise as possible, around 1 sentence, while being informative. Please use markdown formatting for the questions, following this format where each headline is the specific question:\n\n## Question 1\n\n## Question 2\n\n...\n\n## Question k",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": job_description
+                    }
+                ]
+            }
+        ]
+    )
+    return message.content[0].text
+
+def process_interview_questions(questions_text, category='base'):
+    # Split the questions text into individual questions
+    questions = re.split(r'(## Question \d+)', questions_text)[1:]
+
+    # Create a list to store the processed questions
+    processed_questions = []
+
+    # Process each question
+    for i in range(0, len(questions), 2):
+        question_text = questions[i + 1].strip()
+        processed_questions.append({
+            'Question Text': question_text,
+            'Category': category
+        })
+
+    # Create a DataFrame from the processed questions
+    df = pd.DataFrame(processed_questions)
+
+    return df
+
+def save_interview_questions(df, filename, output_dir='interview-questions'):
+    # Create the output directory if it doesn't exist
+    ensure_dir_exists(output_dir)
+
+    # Save the DataFrame to a CSV file in the output directory
+    file_path = os.path.join(output_dir, filename)
+    df.to_csv(file_path, index=False)
+
+    print(f"Interview questions saved to: {file_path}")
+
+
 if __name__ == "__main__":
 
     input_folder = "job-descriptions/text-files"
@@ -231,4 +284,14 @@ if __name__ == "__main__":
 
     job_name = "meta-sweml"
     job_description = open("job-descriptions/text-files-processed/meta-sweml.txt", "r").read()
-    create_finalized_personas(job_description, job_name)
+    # create_finalized_personas(job_description, job_name)
+
+    job_description = open("job-descriptions/text-files-processed/anthropic-researchengineer.txt", "r").read()
+    base_questions = generate_interview_questions(job_description)
+    print(base_questions)
+
+    base_questions_df = process_interview_questions(base_questions)
+    print(base_questions_df)
+
+    print("\nSaving interview questions...")
+    save_interview_questions(base_questions_df, "base_interview_questions.csv")
