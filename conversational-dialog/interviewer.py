@@ -16,7 +16,7 @@ import anthropic
 from audioToText import AudioRecorder, transcribe_audio
 
 class Interviewer:
-    def __init__(self):
+    def __init__(self,persona):
         load_dotenv()
         self.client_openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         self.client_claude = anthropic.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
@@ -24,6 +24,9 @@ class Interviewer:
         self.recorder = AudioRecorder()
         pygame.mixer.init()
         self.playback_finished = threading.Event()
+
+        # Appending the initial persona
+        self.history.append({'role': 'user', 'content': persona})
 
     def text_to_speech(self, text: str):
         try:
@@ -88,5 +91,8 @@ class Interviewer:
             self.text_to_speech(response_text)
 
 if __name__ == '__main__':
-    interviewer = Interviewer()
+    # Adding the persona
+    with open('test-persona-prompt.txt','r') as file:
+        persona = file.read()
+    interviewer = Interviewer(persona)
     interviewer.main()
