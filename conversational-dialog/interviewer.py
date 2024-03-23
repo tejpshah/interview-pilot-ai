@@ -8,9 +8,7 @@ agent (the interviewer)
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
-import pyaudio
-from io import BytesIO
-import numpy as np
+import pygame
 
 class Interviewer:
     # Constructor
@@ -26,30 +24,24 @@ class Interviewer:
             voice='alloy',
             input=text
         )
-        return speech.content
-    
+        speech.stream_to_file("interviewer-speech.mp3")
+
+        # Playing the audio
+        pygame.init()
+        pygame.mixer.music.load("interviewer-speech.mp3")
+        pygame.mixer.music.play()
+
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
+        
+        pygame.quit()   
     # Function for text-to-text -> NEEDED
 
     # Function for Speech-to-text -> Need to add
-    
-def stream_audio(audio_bytes):
-    p = pyaudio.PyAudio()
 
-    stream = p.open(format=pyaudio.paInt16,
-                    channels=1,
-                    rate=25000,
-                    output=True)
-    audio_array = audio_bytes.getbuffer().tobytes()
-    stream.write(audio_array)
-
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
 
 # Main Method for testing
 if __name__ == '__main__':
     # Creating the object
     interviewer = Interviewer()
-    test = interviewer.text_to_speech('I like trains')
-    stream_audio(BytesIO(test))
-    print('Yeet')
+    interviewer.text_to_speech('I like trains')

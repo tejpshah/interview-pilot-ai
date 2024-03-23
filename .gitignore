@@ -5,6 +5,7 @@ __pycache__/
 
 # The .env for POCs
 conversational-dialog/.env
+conversational-dialog/interviewer-speech.mp3
 
 # C extensions
 *.so
