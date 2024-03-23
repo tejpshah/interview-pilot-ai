@@ -1,0 +1,41 @@
+# Job Overview
+
+- Position: Quantitative Finance Analyst - Financial Crimes Data Analyst
+- Locations: Charlotte, North Carolina; Jersey City, New Jersey; Chicago, Illinois; Additional locations
+
+# Job Description
+
+- Part of the Enterprise Risk Analytics (ERA) model development team for Anti-Money Laundering (AML) detection models
+- Develop models to identify potentially suspicious behaviors for further investigation
+- Work with various model methodologies, from rules-based to advanced machine learning and AI models
+- Use Python, PySpark, and SQL for programming and data extraction
+
+# Responsibilities
+
+- Identify and apply statistical techniques for enhanced risk management capabilities
+- Develop quantitative methods for granular detection capabilities meeting requirements
+- Perform in-depth analysis on AML model suite and articulate model performance
+- Communicate model performance to stakeholders, including risk management, model development, model risk, and senior management
+- Clearly articulate quantitative solutions to address critical business problems
+
+# Required Skills
+
+- Graduate degree in a quantitative discipline (e.g., Mathematics, Economics, Engineering, Finance, Physics)
+- 2+ years of experience in model development, statistical work, data analytics, or quantitative research, or a PhD
+- Strong programming skills (e.g., R, Python, SAS, SQL)
+- Strong analytical and problem-solving skills
+
+# Desired Skills
+
+- Knowledge of predictive modeling, statistical sampling, optimization, machine learning, and AI techniques
+- Strong technical writing, communication, and presentation skills for non-technical audiences
+- Experience with large data sets
+- Effective prioritization, time, and project management
+- Broad understanding of financial products
+
+# Additional Information
+
+- Full-time position
+- 1st shift (United States of America)
+- 40 hours per week
+- No travel required

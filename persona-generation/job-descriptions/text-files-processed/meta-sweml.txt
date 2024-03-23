@@ -1,0 +1,30 @@
+# Job Overview
+
+- Meta (formerly Facebook) builds technologies to help people connect, find communities, and grow businesses
+- The role is for a Software Engineer, Machine Learning position at Meta's Seattle, WA location
+
+# Responsibilities
+
+- Research, design, develop, and test operating systems-level software, compilers, and network distribution software for massive social data and prediction problems
+- Work on ranking, classification, recommendation, optimization problems like payment fraud, click prediction, ads ranking, text classification, recommendation systems, spam detection
+- Develop highly scalable systems, algorithms and tools leveraging deep learning, data regression, and rules-based models
+- Analyze requirements, bottlenecks in technology, systems, and tools, and develop efficient solutions
+- Explore state-of-the-art deep learning techniques and adapt standard methods for parallel environments
+- Code deliverables in tandem with the engineering team under general supervision
+
+# Minimum Qualifications 
+
+- Master's degree in Computer Science, Software Engineering, Applied Math/Sciences or related field
+- 2 years of experience with:
+    - Machine learning frameworks (PyTorch, MXNet, TensorFlow)
+    - Machine learning, recommendation systems, computer vision, NLP, data mining, distributed systems
+    - Translating insights into business recommendations
+    - Big data tools (Hadoop, HBase, Pig, MapReduce, Spark etc.)
+    - Programming in C/C++, Java
+    - Scripting languages (Perl, Python, PHP)  
+    - Relational databases, SQL
+    - Software development tools (code editors, version control)
+    - Linux/Unix operating systems
+    - Building highly-scalable, performant solutions
+    - Applying algorithms and core CS concepts to real-world systems
+    - Distributed systems
