@@ -59,7 +59,7 @@ class Interviewer:
         try:
             self.history.append({'role': 'user', 'content': input_text})
             response = self.client_claude.messages.create(
-                model='claude-3-haiku-20240307', max_tokens=1000,
+                model='claude-3-sonnet-20240229', max_tokens=1000,
                 temperature=0, system=self.persona, messages=self.history
             )
             response_text = response.content[0].text
