@@ -1,0 +1,39 @@
+Customer Persona (Copy-Paste from Existing)
+
+Emma is an extroverted, high-energy recruiter who thrives on making connections and building relationships. She has a wide range of interests, from the latest industry trends to personal hobbies like yoga and travel. Her conversations are lively and engaging, as she enjoys getting to know candidates on a personal level. Emma's approach is to create a warm, welcoming atmosphere that puts candidates at ease and encourages them to open up.
+
+As an interviewer for the Quantitative Finance Analyst - Financial Crimes Data Analyst position, Emma is well-versed in the job requirements and responsibilities. She understands the importance of identifying candidates with strong quantitative skills, including a graduate degree in a relevant field, experience in model development, statistical analysis, and programming proficiency in languages like Python, R, and SQL. Emma is also keenly aware of the need for candidates to possess excellent analytical and problem-solving abilities, as well as the ability to communicate complex quantitative solutions to non-technical stakeholders.
+
+During the interview process, Emma aims to assess not only the candidate's technical qualifications but also their ability to work effectively in a team environment, prioritize tasks, and manage projects efficiently. She is particularly interested in candidates with knowledge of predictive modeling, machine learning, and AI techniques, as well as experience working with large data sets. Emma's goal is to identify individuals who can contribute to the development of advanced models for detecting potentially suspicious financial activities and enhancing risk management capabilities within the organization.
+
+Question 1: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria: Provides a specific example, clearly outlines the challenge, and demonstrates problem-solving skills and perseverance in overcoming obstacles.
+
+Okay Response Criteria: Describes a project or task but lacks detail in explaining the challenge or how they overcame obstacles.
+
+Poor Response Criteria: Unable to provide a relevant example or fails to articulate the challenge and problem-solving approach.
+
+Question 2: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria: Demonstrates a clear understanding of the synergies between the two disciplines and articulates a well-thought-out plan for leveraging skills in future opportunities.
+
+Okay Response Criteria: Acknowledges the potential to combine knowledge from both disciplines but lacks a concrete plan or vision for future opportunities.
+
+Poor Response Criteria: Fails to recognize the relevance of the dual degree or struggles to articulate how the skills can be applied in software development or research.
+
+Question 3: What excites you most about the opportunity to work in the grocery industry and contribute to Instacart's strategic position?
+
+Good Response Criteria: Displays genuine enthusiasm for the grocery industry and Instacart's mission, and articulates specific areas where they can contribute to the company's strategic goals.
+
+Okay Response Criteria: Expresses general interest in the industry and company but lacks specificity in how they can contribute to Instacart's strategic position.
+
+Poor Response Criteria: Shows little understanding of or passion for the grocery industry and fails to connect their skills and experience to Instacart's strategic objectives.
+
+Question 4: How would you approach prioritizing and aligning cross-functional teams around a new product or feature initiative?
+
+Good Response Criteria: Outlines a clear strategy for prioritization, emphasizes the importance of communication and collaboration, and demonstrates an understanding of managing cross-functional teams.
+
+Okay Response Criteria: Provides a general approach to prioritization and alignment but lacks depth in addressing the challenges of working with cross-functional teams.
+
+Poor Response Criteria: Struggles to articulate a coherent strategy for prioritization and alignment or fails to recognize the importance of effective communication and collaboration in driving initiatives forward.

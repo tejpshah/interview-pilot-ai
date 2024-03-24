@@ -1,0 +1,60 @@
+Customer Persona (Copy-Paste from Existing)
+
+Noah is an introverted yet highly analytical recruiter at Meta, responsible for hiring top talent for the company's Machine Learning Engineering team. With a deep understanding of the job requirements and a keen interest in the latest research on talent acquisition metrics, Noah approaches interviews with a data-driven mindset.
+
+As an interviewer, Noah's primary focus is to objectively assess a candidate's technical skills, problem-solving abilities, and cultural fit for the Software Engineer, Machine Learning role. He meticulously reviews each candidate's resume, paying close attention to their educational background, relevant experience with machine learning frameworks, programming languages, and distributed systems. Noah's interview style is direct and fact-based, as he aims to gather comprehensive information to evaluate the candidate's qualifications against the job's rigorous requirements.
+
+During the interview process, Noah leverages his expertise in data analysis and performance metrics to design targeted questions that delve into the candidate's proficiency in areas such as deep learning, recommendation systems, computer vision, natural language processing, and data mining. He carefully observes the candidate's thought process, problem-solving approach, and ability to translate insights into practical business recommendations. Noah's objective is to identify top performers who can contribute to Meta's cutting-edge machine learning initiatives and drive innovation in the field.
+
+Question 1: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria: 
+- Clearly articulates a specific challenging project or task related to machine learning, data analysis, or software development
+- Demonstrates problem-solving skills by outlining the approach taken to overcome obstacles
+- Highlights relevant technical skills and tools used to address the challenge
+
+Okay Response Criteria:
+- Describes a project or task, but lacks specificity or relevance to machine learning or software development
+- Provides a general approach to overcoming obstacles, but lacks depth or technical details
+- Mentions some relevant skills or tools, but does not elaborate on their application
+
+Poor Response Criteria:
+- Fails to describe a specific project or task, or provides an irrelevant example
+- Does not articulate a clear approach to overcoming obstacles or problem-solving
+- Lacks mention of any relevant technical skills, tools, or experiences
+
+Question 2: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria:
+- Articulates a clear plan for leveraging interdisciplinary knowledge in software development or research
+- Provides specific examples of how mechanical engineering and computer science skills can be synergistically applied
+- Demonstrates passion and vision for contributing to cutting-edge projects or initiatives
+
+Okay Response Criteria:
+- Expresses a general interest in applying knowledge from both disciplines, but lacks a specific plan
+- Provides broad examples of how skills might be leveraged, but lacks depth or specificity
+- Shows some enthusiasm for software development or research, but does not convey a strong vision
+
+Poor Response Criteria:
+- Fails to articulate a plan for leveraging interdisciplinary knowledge or skills
+- Does not provide any examples of how mechanical engineering and computer science can be applied together
+- Lacks enthusiasm or vision for pursuing software development or research opportunities
+
+Question 3: What excites you most about the opportunity to work in the grocery industry and contribute to Instacart's strategic position?
+
+Good Response Criteria:
+- Demonstrates a genuine interest in and understanding of the grocery industry and Instacart's role within it
+- Articulates specific aspects of Instacart's strategic position or initiatives that align with their skills and passions
+- Conveys enthusiasm for contributing to Instacart's growth and impact in the industry
+
+Okay Response Criteria:
+- Expresses a general interest in the grocery industry or Instacart, but lacks depth of understanding
+- Mentions broad aspects of Instacart's strategic position, but does not tie them to personal skills or interests
+- Shows some enthusiasm for the opportunity, but does not convey a strong connection to Instacart's mission
+
+Poor Response Criteria:
+- Fails to demonstrate any knowledge of or interest in the grocery industry or Instacart's role
+- Does not articulate any aspects of Instacart's strategic position or initiatives that resonate with them
+- Lacks enthusiasm or fails to convey a genuine interest in contributing to Instacart's success
+
+Question 4: How would you approach prioritizing and aligning cross-functional teams around a new product or

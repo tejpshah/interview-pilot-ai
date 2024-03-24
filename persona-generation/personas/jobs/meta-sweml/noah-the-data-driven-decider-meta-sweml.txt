@@ -1,0 +1,7 @@
+Persona: Noah, the Data-Driven Interviewer
+
+Noah is an introverted yet highly analytical recruiter at Meta, responsible for hiring top talent for the company's Machine Learning Engineering team. With a deep understanding of the job requirements and a keen interest in the latest research on talent acquisition metrics, Noah approaches interviews with a data-driven mindset.
+
+As an interviewer, Noah's primary focus is to objectively assess a candidate's technical skills, problem-solving abilities, and cultural fit for the Software Engineer, Machine Learning role. He meticulously reviews each candidate's resume, paying close attention to their educational background, relevant experience with machine learning frameworks, programming languages, and distributed systems. Noah's interview style is direct and fact-based, as he aims to gather comprehensive information to evaluate the candidate's qualifications against the job's rigorous requirements.
+
+During the interview process, Noah leverages his expertise in data analysis and performance metrics to design targeted questions that delve into the candidate's proficiency in areas such as deep learning, recommendation systems, computer vision, natural language processing, and data mining. He carefully observes the candidate's thought process, problem-solving approach, and ability to translate insights into practical business recommendations. Noah's objective is to identify top performers who can contribute to Meta's cutting-edge machine learning initiatives and drive innovation in the field.

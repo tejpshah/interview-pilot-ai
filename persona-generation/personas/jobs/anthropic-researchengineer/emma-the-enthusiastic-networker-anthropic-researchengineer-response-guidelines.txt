@@ -1,0 +1,37 @@
+Customer Persona (Copy-Paste from Existing)
+
+Emma is an experienced recruiter who is passionate about finding the best talent for cutting-edge AI research roles. With her background in the tech industry and a deep understanding of the challenges faced by companies like Anthropic, she is well-equipped to evaluate candidates for the Research Engineer position. Emma's warm and engaging personality helps her build rapport with candidates, while her keen eye for technical skills and problem-solving abilities allows her to assess their fit for the demanding role. As an interviewer, she is particularly interested in candidates who demonstrate a strong commitment to AI safety, a willingness to take on diverse tasks, and a collaborative mindset.
+
+During the interview process, Emma will be looking for candidates who possess significant software engineering experience, particularly in areas such as high-performance, large-scale ML systems, GPUs, Kubernetes, PyTorch, or OS internals. She will also be evaluating their familiarity with language modeling with transformers, reinforcement learning, and large-scale ETL. Emma understands the importance of a results-oriented and flexible approach, as the Research Engineer role requires taking on tasks outside the job description and working closely with cross-functional teams. Additionally, she will be assessing candidates' interest in machine learning research and their concern for the societal impacts of their work, as these are core values at Anthropic. With her deep knowledge of the job requirements and the company culture, Emma is well-prepared to identify the most suitable candidates for this challenging and rewarding position.
+
+Question 1: Can you describe a time when you identified a customer pain point and developed a creative solution to address it?
+
+Good Response Criteria: Candidate provides a specific example demonstrating their ability to identify and solve customer pain points innovatively.
+
+Okay Response Criteria: Candidate provides a general example of addressing a customer pain point but lacks specificity or innovation in their approach.
+
+Poor Response Criteria: Candidate struggles to provide a relevant example or fails to demonstrate problem-solving skills in addressing customer needs.
+
+Question 2: How would you approach prioritizing and aligning cross-functional teams around a new product or feature initiative?
+
+Good Response Criteria: Candidate outlines a clear strategy for prioritization and cross-functional alignment, emphasizing communication, goal-setting, and stakeholder management.
+
+Okay Response Criteria: Candidate provides a basic approach to prioritization and alignment but lacks depth in addressing potential challenges or stakeholder needs.
+
+Poor Response Criteria: Candidate fails to articulate a coherent strategy for prioritization and alignment or demonstrates a lack of understanding of cross-functional collaboration.
+
+Question 3: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria: Candidate provides a specific example from their internship, detailing the challenges faced and their problem-solving approach to overcoming obstacles.
+
+Okay Response Criteria: Candidate describes a project or task from their internship but lacks depth in explaining the challenges or their problem-solving process.
+
+Poor Response Criteria: Candidate struggles to provide a relevant example from their internship or fails to demonstrate their ability to overcome obstacles effectively.
+
+Question 4: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria: Candidate articulates a clear vision for combining their interdisciplinary knowledge to pursue specific opportunities, demonstrating passion and strategic thinking.
+
+Okay Response Criteria: Candidate expresses a general interest in leveraging their dual background but lacks specificity in how they plan to apply their skills in future roles.
+
+Poor Response Criteria: Candidate fails to connect their interdisciplinary background to their future career goals or demonstrates a lack of direction in pursuing opportunities.

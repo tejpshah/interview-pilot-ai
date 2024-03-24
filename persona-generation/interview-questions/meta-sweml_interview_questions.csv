@@ -1,0 +1,4 @@
+Question Text,Category
+"Can you describe a complex machine learning problem you have worked on, the approach you took to solve it, and the challenges you faced along the way?",base
+"How would you adapt a standard machine learning algorithm to leverage modern parallel computing environments, such as distributed clusters or GPUs, to improve its performance and scalability?",base
+"Given your experience with various machine learning frameworks (PyTorch, TensorFlow, etc.), what are the key factors you consider when choosing the appropriate framework for a particular project or problem?",base

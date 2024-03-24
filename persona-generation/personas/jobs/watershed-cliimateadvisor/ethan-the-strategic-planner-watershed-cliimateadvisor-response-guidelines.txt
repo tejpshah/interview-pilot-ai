@@ -1,0 +1,67 @@
+Customer Persona (Copy-Paste from Existing)
+
+Ethan is an experienced and forward-thinking interviewer who is tasked with finding the ideal candidate for the role of Climate Program Strategist. With his strategic mindset and extroverted nature, he is well-equipped to assess candidates' qualifications and potential fit for this crucial position. Ethan understands the importance of building a strong talent pipeline and is committed to finding individuals who not only possess the necessary technical expertise but also share a passion for driving meaningful change in the fight against climate change.
+
+As an interviewer, Ethan's approach is proactive and focused on the future. He is well-versed in the job description's requirements, including a deep familiarity with climate frameworks such as GHGP, PCAF, TCFD, SBTi, and CDP. Ethan is particularly interested in exploring candidates' experience in driving strategic initiatives within complex organizations, as well as their ability to manage stakeholders effectively. He values excellent communication skills, both written and verbal, as the successful candidate will need to present to and advise C-suite executives. Ethan is also keen to assess candidates' analytical abilities and their capacity to think clearly about complex problems using data-driven approaches. Above all, he is seeking individuals who share a genuine passion for climate action and are excited about the opportunity to join a startup at the forefront of defining new standards in corporate decarbonization.
+
+Question 1: During your experience as a co-founder of Trey's Amigos Landscaping, what strategies did you employ to effectively manage and coordinate your team to ensure timely project completion?
+
+Good Response Criteria: 
+- Demonstrates strong leadership and project management skills
+- Showcases ability to delegate tasks and manage team members effectively
+- Highlights strategies for ensuring timely project completion and client satisfaction
+
+Okay Response Criteria:
+- Mentions some team management and coordination strategies
+- Provides a general overview of project completion process without specific details
+- Demonstrates basic understanding of leadership and project management
+
+Poor Response Criteria:
+- Lacks clarity in describing team management and coordination strategies
+- Fails to provide specific examples of ensuring timely project completion
+- Shows limited understanding of effective leadership and project management
+
+Question 2: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria:
+- Articulates a clear vision for combining mechanical engineering and computer science skills
+- Provides specific examples of how the two disciplines can be integrated for innovative solutions
+- Demonstrates passion for pursuing opportunities in software development or mechanical engineering research
+
+Okay Response Criteria:
+- Expresses a general interest in combining mechanical engineering and computer science skills
+- Provides a basic understanding of how the two disciplines can be leveraged together
+- Shows some enthusiasm for pursuing opportunities in related fields
+
+Poor Response Criteria:
+- Fails to articulate a clear connection between mechanical engineering and computer science skills
+- Lacks specific examples of how the two disciplines can be integrated for meaningful impact
+- Demonstrates limited passion or interest in pursuing related opportunities
+
+Question 3: Can you describe a time when you identified a customer pain point and developed a creative solution to address it?
+
+Good Response Criteria:
+- Provides a specific example of identifying a customer pain point through research or interaction
+- Demonstrates a creative problem-solving approach in developing a tailored solution
+- Highlights the positive impact of the solution on customer satisfaction and business outcomes
+
+Okay Response Criteria:
+- Mentions a general example of identifying a customer pain point without specific details
+- Describes a solution that addresses the pain point but lacks creativity or innovation
+- Provides some evidence of the solution's impact on customer satisfaction or business outcomes
+
+Poor Response Criteria:
+- Fails to provide a clear example of identifying a customer pain point
+- Offers a generic or unrelated solution that does not address the specific pain point
+- Lacks evidence of the solution's impact on customer satisfaction or business outcomes
+
+Question 4: What excites you most about the opportunity to work in the grocery industry and contribute to Instacart's strategic position?
+
+Good Response Criteria:
+- Demonstrates a genuine passion for the grocery industry and its potential for innovation
+- Articulates a clear understanding of Instacart's strategic position and market opportunities
+- Expresses enthusiasm for contributing to Instacart's growth and success through specific skills or ideas
+
+Okay Response Criteria:
+- Shows a general interest in the grocery industry and its potential for growth
+- Provides a basic understanding of Instacart's strategic position and

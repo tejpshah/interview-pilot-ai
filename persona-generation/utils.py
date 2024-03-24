@@ -337,7 +337,7 @@ def generate_persona_response_guidelines(persona_file_location,
                 "content": [
                     {
                         "type": "text",
-                        "text": f"This is the persona:\n{persona_file}\nThis is the job summary:\n{job_summary_file}\nThis is the resume questions:\n{resume_questions_file}\nThis is the base questions:\n{base_questions_file}"
+                        "text": f"You are assuming the role of the persona. This is the persona:\n{persona_file}\nThis is the job summary:\n{job_summary_file}\nThis is the resume questions:\n{resume_questions_file}\nThis is the base questions:\n{base_questions_file}"
                     }
                 ]
             }
@@ -347,62 +347,119 @@ def generate_persona_response_guidelines(persona_file_location,
     return message.content[0].text
 
 if __name__ == "__main__":
+    # Step 1: Convert PDFs to text
+    print("\nExtracting text from job descriptions...")
+    job_descriptions_folder = "job-descriptions"
+    if not os.path.exists(os.path.join(job_descriptions_folder, "text-files")):
+        extract_text_from_job_descriptions(job_descriptions_folder)
+    else:
+        print("Skipping text extraction, text files already exist.")
 
+    # Step 2: Process the text
+    print("\nProcessing job descriptions...")
     input_folder = "job-descriptions/text-files"
     output_folder = "job-descriptions/text-files-processed"
+    if not os.path.exists(output_folder):
+        process_job_descriptions(input_folder, output_folder)
+    else:
+        print("Skipping text processing, processed files already exist.")
 
-    print("\nExtracting text from job descriptions...")
-    # extract_text_from_job_descriptions()
-
-    print("\nProcessing job descriptions...")
-    # process_job_descriptions(input_folder, output_folder)
-
+    # Step 3: Generate personas
     print("\nGenerating personas...")
-    # generate_personas()
-
+    if not os.path.exists("personas/base_personas.txt"):
+        generate_personas()
+    else:
+        print("Skipping persona generation, base personas file already exists.")
     markdown_file = "personas/base_personas.txt"
     output_folder = "personas/individuals"
-    # extract_personas_from_markdown(markdown_file, output_folder)
+    if not os.path.exists(output_folder):
+        extract_personas_from_markdown(markdown_file, output_folder)
+    else:
+        print("Skipping persona extraction, individual persona files already exist.")
 
-    job_name = "meta-sweml"
-    job_description = open("job-descriptions/text-files-processed/meta-sweml.txt", "r").read()
-    # create_finalized_personas(job_description, job_name)
+    # Step 4: Save each persona to appropriate folders
+    # This step is already done in the extract_personas_from_markdown function
 
-    job_description = open("job-descriptions/text-files-processed/anthropic-researchengineer.txt", "r").read()
-    #base_questions = generate_interview_questions(job_description)
-    #print(base_questions)
+    # Step 5: Fuse personas with job descriptions
+    print("\nFusing personas with job descriptions...")
+    job_descriptions_folder = "job-descriptions/text-files-processed"
+    for filename in os.listdir(job_descriptions_folder):
+        if filename.endswith(".txt"):
+            job_name = os.path.splitext(filename)[0]
+            job_folder = os.path.join("personas/jobs", job_name)
+            if not os.path.exists(job_folder):
+                job_description_path = os.path.join(job_descriptions_folder, filename)
+                with open(job_description_path, "r", encoding="utf-8") as file:
+                    job_description = file.read()
+                create_finalized_personas(job_description, job_name)
+            else:
+                print(f"Skipping persona fusion for {job_name}, fused personas already exist.")
 
-    #base_questions_df = process_interview_questions(base_questions)
-   # print(base_questions_df)
+    # Intermediate - Convert all resumes to text and save
+    print("\nExtracting text from resumes...")
+    resume_folder = "resumes"
+    if not os.path.exists(os.path.join(resume_folder, "text-files")):
+        for filename in os.listdir(resume_folder):
+            if filename.endswith(".pdf"):
+                pdf_path = os.path.join(resume_folder, filename)
+                extract_text_from_pdf(pdf_path, resume_folder)
 
-    #print("\nSaving interview questions...")
-    #save_interview_questions(base_questions_df, "base_interview_questions.csv")
+    # Step 6: Generate questions based on resume and job description
+    print("\nGenerating interview questions...")
+    resume_folder = "resumes/text-files"
+    for filename in os.listdir(resume_folder):
+        if filename.endswith(".txt"):
+            resume_path = os.path.join(resume_folder, filename)
+            interview_questions_file = f"interview-questions/{os.path.splitext(filename)[0]}_interview_questions.csv"
+            if not os.path.exists(interview_questions_file):
+                with open(resume_path, "r", encoding="utf-8") as file:
+                    resume = file.read()
+                resume_questions = generate_interview_questions_resume(resume)
+                resume_questions_df = process_interview_questions(resume_questions, category='resume')
+                save_interview_questions(resume_questions_df, f"{os.path.splitext(filename)[0]}_interview_questions.csv")
+            else:
+                print(f"Skipping interview question generation for {filename}, questions already exist.")
+
+    # Generating questions based on job description
+    print("\nGenerating interview questions based on job descriptions...")
+    for filename in os.listdir("job-descriptions/text-files-processed"):
+        if filename.endswith(".txt"):
+            job_description_path = os.path.join("job-descriptions/text-files-processed", filename)
+            with open(job_description_path, "r", encoding="utf-8") as file:
+                job_description = file.read()
+            interview_questions_file = f"interview-questions/{os.path.splitext(filename)[0]}_interview_questions.csv"
+            if not os.path.exists(interview_questions_file):
+                job_questions = generate_interview_questions(job_description)
+                job_questions_df = process_interview_questions(job_questions)
+                save_interview_questions(job_questions_df, f"{os.path.splitext(filename)[0]}_interview_questions.csv")
+            else:
+                print(f"Skipping interview question generation for {filename}, questions already exist.")
+
+    # Step 7: Save everything into a final file for each job's interview question
+    print("\nGenerating response guidelines...")
+    for job_name in os.listdir("personas/jobs"):
+        job_folder = os.path.join("personas/jobs", job_name)
+        for persona_file in os.listdir(job_folder):
+            if persona_file.endswith(".txt"):
+                persona_file_location = os.path.join(job_folder, persona_file)
+                response_guidelines_file = os.path.join(job_folder, f"{os.path.splitext(persona_file)[0]}-response-guidelines.txt")
+                if not os.path.exists(response_guidelines_file):
+                    job_summary_file_location = os.path.join("job-descriptions/text-files-processed", f"{job_name}.txt")
+                    resume_questions_file_location = "interview-questions/hirsh-resume_interview_questions.csv"
 
 
-    # extract_text_from_df_resume("resumes/hirsh-ramani-resume.pdf", "resumes")
-    # resume = open("resumes/text-files/hirsh-ramani-resume.txt", "r").read()
-    # resume_questions = generate_interview_questions_resume(resume)
-    # print(resume_questions)
+                    list_of_files = os.listdir("interview-questions")
+                    list_of_files.remove("hirsh-resume_interview_questions.csv")
 
-    # resume_questions_df = process_interview_questions(resume_questions, category='resume')
-    # print(resume_questions_df)
-
-    # print("\nSaving resume-based interview questions...")
-    # save_interview_questions(resume_questions_df, "resume_interview_questions.csv")
-
-    persona_file_location = "personas/individuals/emma-the-enthusiastic-networker.txt"
-    job_summary_file_location = "job-descriptions/text-files-processed/meta-sweml.txt"
-    resume_questions_file_location = "interview-questions/resume_interview_questions.csv"
-    base_questions_file_location = "interview-questions/base_interview_questions.csv"
-
-    response_guidelines = generate_persona_response_guidelines(persona_file_location,
-                                                                job_summary_file_location,
-                                                                resume_questions_file_location,
-                                                                base_questions_file_location)
-    print(response_guidelines)
-
-    # save the response as 'f{job_name}-response-guidelines.txt'
-
-    with open(f"{job_name}-response-guidelines.txt", "w") as file:
-        file.write(response_guidelines)
-    print(f"Response guidelines saved to {job_name}-response-guidelines.txt")
+                    for file in list_of_files:
+                        print(file)
+                        base_questions_file_location = file 
+                        response_guidelines = generate_persona_response_guidelines(persona_file_location,
+                                                                                job_summary_file_location,
+                                                                                resume_questions_file_location,
+                                                                                'interview-questions/' + base_questions_file_location)
+                        with open(response_guidelines_file, "w", encoding="utf-8") as file:
+                            file.write(response_guidelines)
+                        print(f"Response guidelines saved to {response_guidelines_file}")
+                else:
+                    print(f"Skipping response guidelines generation for {persona_file}, guidelines already exist.")

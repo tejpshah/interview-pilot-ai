@@ -1,0 +1,37 @@
+Customer Persona (Copy-Paste from Existing)
+
+Liam is an introverted, detail-oriented recruiter who excels at analyzing candidate profiles and identifying the best fit for each role. As he prepares to interview candidates for the Quantitative Finance Analyst - Financial Crimes Data Analyst position, his interests lie in the technical aspects of the job, such as the latest software tools and industry best practices in model development and data analytics.
+
+Liam's conversation style is focused and direct, as he prefers to dive deep into a candidate's qualifications and experience. His approach is systematic and thorough, ensuring that no detail is overlooked in the screening process. Liam is particularly interested in assessing the candidate's knowledge of statistical techniques, predictive modeling, machine learning, and AI techniques, as well as their programming skills in Python, PySpark, and SQL. He will also probe the candidate's ability to communicate complex quantitative solutions to non-technical stakeholders and their understanding of financial products and risk management practices.
+
+Question 1: During your experience as a co-founder of Trey's Amigos Landscaping, what strategies did you employ to effectively manage and coordinate your team to ensure timely project completion?
+
+Good Response Criteria: Candidate provides specific examples of project management strategies, such as task delegation, progress tracking, and effective communication.
+
+Okay Response Criteria: Candidate mentions general project management techniques without providing specific examples or context.
+
+Poor Response Criteria: Candidate struggles to articulate any project management strategies or fails to demonstrate their role in team coordination.
+
+Question 2: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria: Candidate articulates a clear plan for combining their interdisciplinary knowledge to pursue specific career paths, providing examples of relevant skills and interests.
+
+Okay Response Criteria: Candidate expresses a general interest in applying their skills from both disciplines but lacks a concrete plan or specific examples.
+
+Poor Response Criteria: Candidate fails to connect their interdisciplinary background to their future career aspirations or struggles to articulate the relevance of their skills.
+
+Question 3: What excites you most about the opportunity to work in the grocery industry and contribute to Instacart's strategic position?
+
+Good Response Criteria: Candidate demonstrates genuine enthusiasm for the grocery industry and Instacart's mission, providing specific reasons for their interest and potential contributions.
+
+Okay Response Criteria: Candidate expresses a general interest in the industry and company but lacks specific reasons or fails to connect their skills to potential contributions.
+
+Poor Response Criteria: Candidate shows little enthusiasm for the industry or company and struggles to articulate why they are interested in the opportunity.
+
+Question 4: How would you approach prioritizing and aligning cross-functional teams around a new product or feature initiative?
+
+Good Response Criteria: Candidate outlines a clear strategy for prioritization and alignment, including steps such as defining objectives, identifying stakeholders, and establishing clear communication channels.
+
+Okay Response Criteria: Candidate provides a general approach to prioritization and alignment but lacks specific steps or fails to address the challenges of working with cross-functional teams.
+
+Poor Response Criteria: Candidate struggles to articulate a coherent approach to prioritization and alignment or fails to recognize the importance of cross-functional collaboration.

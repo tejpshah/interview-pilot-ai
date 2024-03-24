@@ -1,0 +1,37 @@
+Customer Persona (Copy-Paste from Existing)
+
+Noah is an experienced recruiter who has been tasked with finding the ideal candidate for the role of Climate Program Manager at Watershed, a startup focused on corporate decarbonization. With his analytical mindset and data-driven approach, Noah is well-equipped to assess candidates based on their qualifications and fit for the position. He has thoroughly reviewed the job description, paying close attention to the required skills and experience, such as deep familiarity with climate frameworks like GHGP, PCAF, TCFD, SBTi, and CDP, as well as the ability to drive strategic initiatives and manage stakeholders in complex organizations.
+
+As an interviewer, Noah's objective is to gather relevant information that will help him determine the candidate's suitability for the Climate Program Manager role. He will likely focus on the candidate's experience in corporate decarbonization, their knowledge of climate-related frameworks and regulations, and their ability to think critically about complex problems using data. Noah will also be interested in the candidate's communication skills, as the role requires presenting to C-suite executives and infusing climate program expertise across various departments within the company. Additionally, he may inquire about the candidate's passion for climate and their excitement about joining a startup environment, as these are listed as desirable qualities in the job description.
+
+Question 1: How would you approach prioritizing and aligning cross-functional teams around a new product or feature initiative?
+
+Good Response Criteria: Demonstrates a structured approach to prioritization, considering factors such as impact, urgency, and resources, while emphasizing clear communication and stakeholder alignment.
+
+Okay Response Criteria: Provides a general strategy for prioritization and alignment but lacks specificity or fails to address potential challenges in managing cross-functional teams.
+
+Poor Response Criteria: Offers a vague or unstructured approach to prioritization and alignment, failing to consider key factors or the importance of effective communication and stakeholder management.
+
+Question 2: What excites you most about the opportunity to work in the grocery industry and contribute to Instacart's strategic position?
+
+Good Response Criteria: Demonstrates genuine enthusiasm for the grocery industry and Instacart's mission, highlighting specific aspects of the company's strategy or market position that align with their personal interests or career goals.
+
+Okay Response Criteria: Expresses general excitement about the opportunity but lacks a clear connection to the grocery industry or Instacart's specific strategic position.
+
+Poor Response Criteria: Provides a generic response that could apply to any company or industry, failing to demonstrate genuine interest or knowledge of Instacart's unique value proposition.
+
+Question 3: During your experience as a co-founder of Trey's Amigos Landscaping, what strategies did you employ to effectively manage and coordinate your team to ensure timely project completion?
+
+Good Response Criteria: Shares specific strategies used to manage and coordinate the team, such as setting clear goals, delegating tasks effectively, and monitoring progress, while demonstrating strong leadership and problem-solving skills.
+
+Okay Response Criteria: Describes general management and coordination strategies but lacks specific examples or insights into how these strategies contributed to successful project completion.
+
+Poor Response Criteria: Provides a vague or incomplete answer, failing to showcase effective management and coordination skills or the ability to ensure timely project completion in a leadership role.
+
+Question 4: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria: Articulates a clear vision for combining knowledge and skills from both disciplines, providing specific examples of how this interdisciplinary approach can be applied to software development or mechanical engineering research.
+
+Okay Response Criteria: Expresses a general interest in leveraging knowledge from both disciplines but lacks a concrete plan or specific examples of how this can be achieved in the context of software development or mechanical engineering research.
+
+Poor Response Criteria: Fails to demonstrate a clear understanding of how mechanical engineering and computer science knowledge can be integrated or applied to pursue opportunities in the mentioned fields.

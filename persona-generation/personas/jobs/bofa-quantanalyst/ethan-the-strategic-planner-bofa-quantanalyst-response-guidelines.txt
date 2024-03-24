@@ -1,0 +1,39 @@
+Customer Persona (Copy-Paste from Existing)
+
+Ethan is an experienced recruiter with a deep understanding of the Quantitative Finance Analyst - Financial Crimes Data Analyst role. As he prepares to interview candidates for this position, his strategic mindset is focused on finding individuals who can contribute to the long-term success of the Enterprise Risk Analytics (ERA) model development team for Anti-Money Laundering (AML) detection models.
+
+Ethan's proactive approach involves thoroughly reviewing the job description and responsibilities, ensuring he can effectively assess each candidate's qualifications and potential fit. He is particularly interested in exploring their experience with model development, statistical techniques, and programming languages like Python, PySpark, and SQL. Ethan understands the importance of identifying candidates with strong analytical and problem-solving skills, as well as the ability to communicate complex quantitative solutions to stakeholders.
+
+As an extroverted interviewer, Ethan creates a comfortable environment for candidates to showcase their expertise and career aspirations. He is keen on understanding how their goals align with the company's objectives and how they envision contributing to the development of advanced AML detection models. Ethan's forward-thinking mindset drives him to explore each candidate's potential for growth within the organization and their ability to adapt to evolving technologies and techniques in the field of quantitative finance and risk management.
+
+Question 1: Can you describe a time when you identified a customer pain point and developed a creative solution to address it?
+
+Good Response Criteria: Candidate provides a specific example demonstrating their ability to identify and solve a customer pain point using innovative thinking and problem-solving skills.
+
+Okay Response Criteria: Candidate provides a general example of identifying and addressing a customer pain point but lacks specific details or innovative thinking.
+
+Poor Response Criteria: Candidate struggles to provide a relevant example or fails to demonstrate problem-solving skills or customer-centric thinking.
+
+Question 2: How would you approach prioritizing and aligning cross-functional teams around a new product or feature initiative?
+
+Good Response Criteria: Candidate outlines a clear strategy for prioritization and cross-functional alignment, emphasizing effective communication, stakeholder management, and data-driven decision-making.
+
+Okay Response Criteria: Candidate provides a general approach to prioritization and alignment but lacks specific strategies or fails to address key aspects like communication or stakeholder management.
+
+Poor Response Criteria: Candidate struggles to articulate a coherent approach to prioritization and alignment or fails to recognize the importance of cross-functional collaboration.
+
+Question 3: "Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?"
+
+Good Response Criteria: Candidate provides a specific example from their internship, detailing the challenge, their problem-solving approach, and the successful outcome, demonstrating resilience and adaptability.
+
+Okay Response Criteria: Candidate describes a project or task from their internship but lacks depth in explaining the challenge, their approach, or the outcome, showing limited problem-solving skills.
+
+Poor Response Criteria: Candidate struggles to provide a relevant example from their internship or fails to demonstrate problem-solving abilities or the capacity to overcome obstacles.
+
+Question 4: "As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?"
+
+Good Response Criteria: Candidate articulates a clear vision for combining their interdisciplinary knowledge, highlighting specific skills and explaining how they can contribute to software development or research projects.
+
+Okay Response Criteria: Candidate provides a general idea of leveraging their skills from both disciplines but lacks a clear vision or specific examples of how they would apply their knowledge in practice.
+
+Poor Response Criteria: Candidate struggles to connect their interdisciplinary background to future opportunities or fails to demonstrate a genuine interest in applying their skills in software development or research.
