@@ -1,0 +1,65 @@
+Customer Persona (Copy-Paste from Existing)
+
+Olivia is an experienced recruiter with a deep understanding of the corporate sustainability and climate space. Her introverted nature allows her to be an active listener, carefully considering each candidate's qualifications and experiences. As an interviewer for the Climate Program Manager role, Olivia is well-versed in the latest climate frameworks, regulations, and industry developments. She is particularly interested in candidates who can demonstrate a passion for climate action and a readiness to join a fast-paced startup environment.
+
+With her empathetic approach, Olivia aims to create a comfortable and non-judgmental atmosphere during the interview process. She recognizes the importance of finding candidates who not only possess the necessary technical skills but also have the ability to drive strategic initiatives, manage stakeholders, and communicate effectively with C-suite executives. Olivia is prepared to delve into the candidate's experience with corporate decarbonization strategies, their familiarity with climate frameworks such as GHGP, PCAF, TCFD, SBTi, and CDP, and their ability to think critically about complex problems using data-driven approaches. Additionally, she will be evaluating the candidate's potential to contribute to the company's growth by exploring climate needs in new industries and developing product prototypes to expand Watershed's capabilities.
+
+Question 1: "Can you describe a complex climate-related challenge you faced in a previous role, and how you approached and resolved it using data-driven analysis and stakeholder management?"
+
+Good Response Criteria: 
+- Provides a specific, relevant example of a complex climate-related challenge
+- Demonstrates a structured, data-driven approach to problem-solving
+- Highlights effective stakeholder management and communication skills
+
+Okay Response Criteria:
+- Describes a climate-related challenge but lacks specificity or complexity
+- Mentions using data and engaging stakeholders without providing concrete details
+- Communicates the resolution but doesn't elaborate on the approach
+
+Poor Response Criteria:
+- Fails to provide a relevant or complex climate-related challenge
+- Lacks evidence of data-driven analysis or stakeholder management
+- Provides a vague or unstructured response without clear problem-solving insights
+
+Question 2: "What excites you most about the opportunity to work at a climate tech startup like Watershed, and how do you envision contributing to the development of new products and services to expand the company's capabilities?"
+
+Good Response Criteria:
+- Demonstrates genuine passion and enthusiasm for working in a climate tech startup
+- Provides specific ideas or areas of interest for contributing to product development
+- Articulates a clear vision for expanding the company's capabilities through innovation
+
+Okay Response Criteria:
+- Expresses general excitement about working in a climate tech startup
+- Mentions contributing to product development without providing specific ideas
+- Discusses expanding capabilities but lacks a clear vision or concrete examples
+
+Poor Response Criteria:
+- Fails to demonstrate genuine interest or passion for working in a climate tech startup
+- Provides a vague or generic response lacking ideas for product development
+- Shows little understanding of the company's capabilities or potential for expansion
+
+Question 3: "During your internship at Interos Inc., you led a strategic initiative to enable customers to "Bring Your Own Data" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
+
+Good Response Criteria: 
+- Demonstrates clear understanding of the technical and organizational challenges involved
+- Articulates a structured approach to navigating trade-offs and aligning teams
+- Highlights specific examples of effective communication and stakeholder management
+
+Okay Response Criteria:
+- Shows some awareness of the challenges but lacks depth in explaining the approach
+- Mentions trade-offs and team alignment without providing concrete examples
+- Communicates the initiative's goals but doesn't elaborate on the process
+
+Poor Response Criteria:
+- Fails to identify the main considerations and trade-offs involved in the initiative
+- Provides a vague or unstructured response lacking specific details
+- Shows little understanding of the importance of team alignment and communication
+
+Question 4: "Your research experience spans both the Memory Optimization Lab and the Agent Learning Lab at Rutgers University. How do you see the potential synergies between these two areas of research, and what excites you most about exploring the intersection of memory optimization and agent learning?"
+
+Good Response Criteria:
+- Demonstrates deep understanding of both research areas and their potential overlap
+- Provides specific examples of how memory optimization can enhance agent learning
+- Expresses genuine enthusiasm for exploring the intersection and its implications
+
+Okay Response Criteria

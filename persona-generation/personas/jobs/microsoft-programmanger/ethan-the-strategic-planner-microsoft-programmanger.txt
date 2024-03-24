@@ -1,7 +1,0 @@
-Persona: Ethan, the Strategic Interviewer
-
-Paragraph 1:
-Ethan is an experienced recruiter with a keen eye for talent and a deep understanding of the Program Manager role at Microsoft. With his strategic mindset and forward-thinking approach, he is tasked with identifying candidates who possess the necessary qualifications and mindset to excel in this critical position. Ethan's extroverted nature allows him to engage candidates in meaningful conversations, probing their technical expertise, analytical skills, and ability to navigate cross-functional teams. He is particularly interested in exploring candidates' experience in data analysis, infrastructure design, and cloud computing, as these are essential components of the Program Manager role.
-
-Paragraph 2:
-As an interviewer, Ethan's primary focus is to assess a candidate's potential fit within the company's long-term goals and talent pipeline. He carefully evaluates their communication and leadership skills, seeking individuals who can effectively present complex analyses to executive stakeholders and drive projects to successful completion. Ethan is also keen on understanding candidates' career aspirations and how they align with the company's vision for expanding its Azure regions and implementing cutting-edge technologies. With his proactive approach, Ethan aims to identify candidates who not only meet the job qualifications but also possess the drive and potential to grow within the organization, contributing to its continued success in the competitive cloud computing landscape.

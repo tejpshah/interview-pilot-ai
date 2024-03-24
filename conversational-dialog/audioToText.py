@@ -4,7 +4,6 @@ import numpy as np
 import whisper
 import os
 
-
 class AudioRecorder:
     def __init__(self, format=pyaudio.paInt16, channels=1, rate=8000, chunk_size=256, silence_threshold=300,
                  silence_duration=5):

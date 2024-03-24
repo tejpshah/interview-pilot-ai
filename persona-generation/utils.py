@@ -242,7 +242,7 @@ def create_finalized_personas(job_description, job_name, k=3, personas_folder="p
 
 # Generate Interview Questions
 
-def generate_interview_questions(job_description, k=3):
+def generate_interview_questions(job_description, k=2):
     message = client.messages.create(
         model="claude-3-sonnet-20240229",
         max_tokens=1000,
@@ -294,7 +294,7 @@ def save_interview_questions(df, filename, output_dir='interview-questions'):
 
 # Generate interview Questions Based on Resume
     
-def generate_interview_questions_resume(resume, k=3):
+def generate_interview_questions_resume(resume, k=2):
     message = client.messages.create(
         model="claude-3-sonnet-20240229",
         max_tokens=1000,
@@ -346,7 +346,7 @@ def generate_persona_response_guidelines(persona_file_location,
 
     return message.content[0].text
 
-if __name__ == "__main__":
+def main():
     # Step 1: Convert PDFs to text
     print("\nExtracting text from job descriptions...")
     job_descriptions_folder = "job-descriptions"
@@ -445,11 +445,11 @@ if __name__ == "__main__":
                 response_guidelines_file = os.path.join(job_folder, f"{os.path.splitext(persona_file)[0]}-response-guidelines.txt")
                 if not os.path.exists(response_guidelines_file):
                     job_summary_file_location = os.path.join("job-descriptions/text-files-processed", f"{job_name}.txt")
-                    resume_questions_file_location = "interview-questions/hirsh-resume_interview_questions.csv"
+                    resume_questions_file_location = "interview-questions/resume_interview_questions.csv"
 
 
                     list_of_files = os.listdir("interview-questions")
-                    list_of_files.remove("hirsh-resume_interview_questions.csv")
+                    list_of_files.remove("resume_interview_questions.csv")
 
                     for file in list_of_files:
                         print(file)
@@ -463,3 +463,9 @@ if __name__ == "__main__":
                         print(f"Response guidelines saved to {response_guidelines_file}")
                 else:
                     print(f"Skipping response guidelines generation for {persona_file}, guidelines already exist.")
+
+
+if __name__ == "__main__":
+    main()
+
+    

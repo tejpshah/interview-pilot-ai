@@ -1,0 +1,86 @@
+   
+Contact
+tejshahlinkedin+1@gmail.com
+www.linkedin.com/in/tejpnshah
+(LinkedIn)
+Top Skills
+Artificial Intelligence (AI)
+Entrepreneurship
+Leadership
+Honors-Awards
+National Merit Scholar
+National AP ScholarTej Shah
+Computer Science & Business Analytics | KP Product Fellow
+New York City Metropolitan Area
+Summary
+Senior at Rutgers University studying Computer Science & Business
+Analytics. Background in AI, encompassing research, product
+management, and engineering. Eager to bring AI R&D to real-
+world products. Excited to chat about human-machine parallels,
+mechanistic interpretability, and AI policy.
+Experience
+Rutgers University
+Research Engineer
+January 2024 - Present  (3 months)
+Memory Optimization Lab.
+Can LLMs be turned into generalized cognitive models better than current
+formulations? Inspired by recent work from SoTA results with LLMs in
+decision-making cognitive models, we investigate this approach applied to
+memory tasks in free recall, relevant extensions and OOD generalization.
+Amazon Web Services (AWS)
+Software Development Engineer Intern
+May 2023 - August 2023  (4 months)
+Seattle, WA
+Enterprise SaaS - Supply Chain Demand Planning. 
+Built data validation system to reduce forecast failure times from up to hours
+down to a few minutes and merged changes onto mainline for production;
+wrote detailed design doc (20 pages) with 3 HLDs, 2 LLDs; completed manual/
+automatic unit and integration testing (stretch goal).
+Kleiner Perkins
+Kleiner Perkins Product Fellow
+June 2022 - August 2022  (3 months)
+San Francisco, CA
+1st Undergraduate Product Fellow.
+  Page 1 of 3   
+http://tinyurl.com/fellows22-product
+Interos Inc
+Product Manager Intern
+June 2022 - August 2022  (3 months)
+San Francisco, CA
+Enterprise SaaS - Supply Chain Risk Management (Series C Unicorn). 
+Led 3-pronged long-term strategic initiative enabling customers to "Bring
+Your Own Data" for more personalized risk assessment by writing PRDs
+and aligning engineering, design, product teams; shipped intra-company risk
+visualization product; wrote requirements to track risk from raw material to
+commodity by using NAICS ontology in our data-lake.
+Rutgers University
+Research Intern
+April 2021 - August 2021  (5 months)
+Agent Learning Lab.
+FIRST
+Technical Writer & CAD Designer
+June 2018 - May 2020  (2 years)
+East Hanover, NJ 
+FTC World Championship Invitation & State Champions X2.
+LaunchX Entrepreneurship Program
+Marketing & Support Intern @ MIT
+July 2019 - August 2019  (2 months)
+Cambridge, MA
+Guided 80 entrepreneurs to launch 20 companies.
+LaunchX Entrepreneurship Program
+Application Reader
+December 2018 - April 2019  (5 months)
+Cambridge, MA
+Vetted 400 applications for the admissions committee.
+Nets Daily News
+Co-Founder
+August 2014 - August 2018  (4 years 1 month)
+Brooklyn, NY 
+  Page 2 of 3   
+Built leading Brooklyn Nets news-site.
+Education
+Rutgers University
+B.S. Computer Science & B.S. Business Analytics  · (2020 - 2024)
+Massachusetts Institute of Technology
+MIT Launch Entrepreneurship Program   · (2017 - 2017)
+  Page 3 of 3

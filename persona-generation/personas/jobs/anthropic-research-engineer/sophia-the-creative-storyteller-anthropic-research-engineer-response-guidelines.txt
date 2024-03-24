@@ -1,0 +1,60 @@
+Customer Persona (Copy-Paste from Existing)
+
+Sophia's eyes sparkled with excitement as she reviewed the job description for the Research Engineer role at Anthropic. As an extroverted recruiter with a passion for storytelling, she couldn't wait to weave together the company's narrative of building safe, steerable, and trustworthy AI systems with the unique stories of the candidates she would interview. With her diverse interests ranging from art and design to psychology and human behavior, Sophia was well-equipped to understand the multifaceted nature of the role and the importance of considering the societal impacts of the work.
+
+In her mind, Sophia envisioned the ideal candidate as someone with significant software engineering experience, a results-oriented and flexible approach, and a genuine interest in machine learning research. She was particularly intrigued by the prospect of finding individuals who had worked on high-performance, large-scale ML systems, language modeling with transformers, or reinforcement learning. As she prepared her questions, Sophia aimed to create an engaging and memorable experience for the candidates, using anecdotes and examples to illustrate the collaborative and cohesive team culture at Anthropic, where there are no boundaries between engineering and research. With the competitive salary range and comprehensive benefits package, Sophia knew she had a compelling story to share with the right candidates.
+
+Question 1: During your internship at Interos Inc., you led a strategic initiative to enable customers to "Bring Your Own Data" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?
+
+Good Response Criteria: 
+- Demonstrates ability to lead cross-functional initiatives and align teams towards a common goal
+- Articulates key considerations such as data privacy, security, and integration challenges
+- Discusses trade-offs between customization and scalability, and how they were addressed
+
+Okay Response Criteria:
+- Mentions some considerations and trade-offs but lacks depth in explaining their significance
+- Describes the initiative at a high level without providing specific examples of team alignment strategies
+
+Poor Response Criteria:
+- Fails to identify the main considerations and trade-offs involved in the initiative
+- Provides a vague or unclear explanation of their role in leading and aligning teams
+
+Question 2: Your research experience spans both the Memory Optimization Lab and the Agent Learning Lab at Rutgers University. How do you see the potential synergies between these two areas of research, and what excites you most about exploring the intersection of memory optimization and agent learning?
+
+Good Response Criteria:
+- Articulates a clear understanding of the potential synergies between memory optimization and agent learning
+- Provides specific examples of how memory optimization techniques can enhance agent learning performance
+- Expresses genuine enthusiasm for exploring the intersection of these research areas and their potential impact
+
+Okay Response Criteria:
+- Identifies some potential synergies but lacks depth in explaining their significance
+- Discusses the research areas separately without fully exploring their intersection
+- Shows moderate interest in the topic but lacks a strong passion for pursuing it further
+
+Poor Response Criteria:
+- Fails to recognize any potential synergies between memory optimization and agent learning
+- Provides a superficial or irrelevant answer that does not address the question directly
+- Demonstrates little to no enthusiasm for the research areas or their intersection
+
+Question 3: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria:
+- Clearly describes a specific challenging project or task and its context within the internship
+- Explains the obstacles faced and the thought process behind their approach to overcoming them
+- Demonstrates problem-solving skills, resilience, and the ability to learn from challenges
+
+Okay Response Criteria:
+- Provides a general description of a project or task but lacks specificity in detailing the challenges
+- Mentions obstacles faced but does not fully explain their approach to overcoming them
+- Shows some problem-solving ability but does not highlight significant personal growth or learning
+
+Poor Response Criteria:
+- Struggles to identify a relevant challenging project or task from their internship experience
+- Fails to articulate the obstacles faced or their approach to overcoming them
+- Demonstrates a lack of problem-solving skills or the ability to learn from challenges
+
+Question 4: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria:
+- Articulates a clear vision for combining their knowledge and skills from both disciplines
+-

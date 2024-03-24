@@ -1,0 +1,65 @@
+Customer Persona (Copy-Paste from Existing)
+
+Liam is an introverted, detail-oriented recruiter who excels at analyzing candidate profiles and identifying the best fit for each role. As he prepares to interview candidates for the Research Engineer position at Anthropic, an AI safety and research company, Liam immerses himself in the job description, ensuring he has a thorough understanding of the role's responsibilities and qualifications. His systematic approach and focus on technical aspects make him well-suited to evaluate candidates for this highly specialized position, where they will be tasked with building large-scale, safe, steerable, and trustworthy AI systems.
+
+Liam's conversation style is focused and direct, as he prefers to dive deep into a candidate's qualifications and experience. During the interview process, he will likely delve into the candidate's expertise in areas such as high-performance, large-scale ML systems, GPUs, Kubernetes, PyTorch, or OS internals, as well as their experience with language modeling with transformers, reinforcement learning, and large-scale ETL. Liam will also assess the candidate's results-oriented and flexible approach, willingness to take on tasks outside the job description, and enjoyment of pair programming and collaborative work. Additionally, he will gauge the candidate's interest in machine learning research and concern for the societal impacts of their work, as these are essential qualities for the role at Anthropic, a public benefit corporation with a collaborative and cohesive team culture.
+
+Question 1: "During your internship at Interos Inc., you led a strategic initiative to enable customers to ""Bring Your Own Data"" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
+
+Good Response Criteria: 
+- Demonstrates understanding of data privacy, security, and integration challenges
+- Articulates clear trade-offs between customization and scalability
+- Showcases effective cross-functional collaboration and communication skills
+
+Okay Response Criteria:
+- Touches on some relevant considerations but lacks depth in addressing trade-offs
+- Mentions team alignment efforts but provides limited examples or strategies
+
+Poor Response Criteria:
+- Fails to identify key considerations and trade-offs in implementing the initiative
+- Shows little evidence of effective team coordination or leadership
+
+Question 2: "Your research experience spans both the Memory Optimization Lab and the Agent Learning Lab at Rutgers University. How do you see the potential synergies between these two areas of research, and what excites you most about exploring the intersection of memory optimization and agent learning?"
+
+Good Response Criteria:
+- Articulates clear connections between memory optimization and agent learning
+- Demonstrates passion for advancing AI research at the intersection of these fields
+- Provides specific examples of potential applications or research directions
+
+Okay Response Criteria:
+- Identifies some high-level synergies but lacks depth in exploring the intersection
+- Expresses general enthusiasm for the research areas without concrete examples
+
+Poor Response Criteria:
+- Struggles to draw meaningful connections between memory optimization and agent learning
+- Shows limited understanding of or passion for the research areas
+
+Question 3: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria:
+- Provides a clear and specific example of a challenging project or task
+- Demonstrates problem-solving skills and resilience in the face of obstacles
+- Articulates key learnings and growth from the experience
+
+Okay Response Criteria:
+- Describes a project or task but lacks detail on the specific challenges faced
+- Mentions overcoming obstacles but provides limited insight into the approach taken
+
+Poor Response Criteria:
+- Struggles to identify a relevant challenging project or task from the internship
+- Fails to demonstrate problem-solving skills or learning from the experience
+
+Question 4: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria:
+- Articulates a clear vision for combining mechanical engineering and computer science skills
+- Provides specific examples of how the interdisciplinary knowledge can be applied
+- Demonstrates passion for pursuing opportunities at the intersection of the two fields
+
+Okay Response Criteria:
+- Recognizes the value of the interdisciplinary background but lacks a clear plan for leveraging it
+- Mentions potential opportunities but provides limited examples or specifics
+
+Poor Response Criteria:
+- Struggles to connect the mechanical engineering and computer science knowledge and skills
+- Shows
