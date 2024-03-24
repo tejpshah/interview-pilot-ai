@@ -16,4 +16,4 @@ We integrated OpenAI's Whisper for speech-to-text transcription and the Text-to-
 The modules enable voice-based conversational practice interviews, with Whisper transcribing user responses and Claude controlling the interviewer persona's voiced replies from OpenAI TTS based on the fused persona/job context. This provides realistic, dynamic interview prep across diverse roles.
 
 ## Authors
-This was made by Jinal Shah, Tej Shah, Akash Shah, Hirsh Ramani for HackRU 2024!
+This was made by Jinal Shah, Tej Shah, Akash Shah, and Hirsh Ramani for HackRU 2024!
