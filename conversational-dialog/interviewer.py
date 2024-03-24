@@ -17,7 +17,7 @@ import json
 from audioToText import AudioRecorder, transcribe_audio
 
 class Interviewer:
-    def __init__(self,persona):
+    def __init__(self, persona):
         load_dotenv()
         self.client_openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         self.client_claude = anthropic.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
@@ -43,6 +43,10 @@ class Interviewer:
                 pygame.mixer.music.play()
                 while pygame.mixer.music.get_busy():
                     pygame.time.Clock().tick(10)
+                    '''user_input = input("Enter something: ")
+                    if user_input == 'q':
+                        pygame.mixer.music.stop()
+                        break'''
             except Exception as e:
                 print(f"Error playing audio: {e}")
             finally:
@@ -56,7 +60,7 @@ class Interviewer:
             self.history.append({'role': 'user', 'content': input_text})
             response = self.client_claude.messages.create(
                 model='claude-3-haiku-20240307', max_tokens=1000,
-                temperature=0, system_prompt=self.persona,messages=self.history
+                temperature=0, system=self.persona, messages=self.history
             )
             response_text = response.content[0].text
             self.history.append({'role': 'assistant', 'content': response_text})
@@ -83,8 +87,9 @@ class Interviewer:
         while not done:
             self.playback_finished.set()  # Assume playback is finished at the start
             user_speech = self.speech_to_text()
+            #user_input = input("Enter something: ")
 
-            if user_speech.strip().lower() == 'i am done':
+            if user_speech.strip().lower() == 'i am done.':
                 done = True
                 continue
 

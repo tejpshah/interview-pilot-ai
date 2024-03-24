@@ -6,8 +6,8 @@ import os
 
 
 class AudioRecorder:
-    def __init__(self, format=pyaudio.paInt16, channels=1, rate=44100, chunk_size=1024, silence_threshold=500,
-                 silence_duration=2):
+    def __init__(self, format=pyaudio.paInt16, channels=1, rate=8000, chunk_size=256, silence_threshold=300,
+                 silence_duration=5):
         self.format = format
         self.channels = channels
         self.rate = rate
