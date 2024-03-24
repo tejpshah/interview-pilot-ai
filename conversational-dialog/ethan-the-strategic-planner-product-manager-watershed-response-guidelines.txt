@@ -8,23 +8,6 @@ During the interview process, Ethan will delve into the candidate's experience w
 
 Ethan's line of questioning will be geared towards understanding the candidate's extreme attention to detail, their high bar for product excellence, their comfort with analytics, setting product metrics, and complex data problems, as well as their strong written and verbal communication skills. He will aim to gauge the candidate's fit for the role and their potential to contribute to Watershed's mission of enabling world-class climate programs through their software platform.
 
-Question 1: "During your internship at Interos Inc., you led a strategic initiative to enable customers to ""Bring Your Own Data"" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
-
-Good Response Criteria: 
-- Demonstrates a clear understanding of the technical and organizational challenges involved in implementing a "Bring Your Own Data" feature
-- Articulates a structured approach to aligning different teams (e.g., engineering, product, sales) around the initiative's goals and trade-offs
-- Provides specific examples of how they navigated and resolved conflicts or disagreements among teams
-
-Okay Response Criteria:
-- Shows a general understanding of the challenges associated with enabling customers to bring their own data
-- Mentions the importance of aligning teams but lacks specific details on how they achieved this alignment
-- Discusses trade-offs at a high level without providing concrete examples
-
-Poor Response Criteria:
-- Fails to recognize the complexity of implementing a "Bring Your Own Data" feature and the potential challenges involved
-- Does not address the importance of aligning different teams or provides a superficial answer
-- Cannot articulate the key considerations and trade-offs involved in the initiative
-
 Question 2: "Can you describe a complex data analysis or visualization project you have worked on, highlighting the challenges you faced and how you overcame them?"
 
 Good Response Criteria:
