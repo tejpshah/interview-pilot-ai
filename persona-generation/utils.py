@@ -293,7 +293,7 @@ def save_interview_questions(df, filename, output_dir='interview-questions'):
     print(f"Interview questions saved to: {file_path}")
 
 # Generate interview Questions Based on Resume
-
+    
 def generate_interview_questions_resume(resume, k=3):
     message = client.messages.create(
         model="claude-3-sonnet-20240229",
@@ -312,6 +312,38 @@ def generate_interview_questions_resume(resume, k=3):
             }
         ]
     )
+    return message.content[0].text
+
+# Generate Persona and Response Guidelines
+
+def generate_persona_response_guidelines(persona_file_location, 
+                                         job_summary_file_location, 
+                                         resume_questions_file_location, 
+                                         base_questions_file_location):
+    
+    persona_file = open(persona_file_location, "r").read()
+    job_summary_file = open(job_summary_file_location, "r").read()
+    resume_questions_file = open(resume_questions_file_location, "r").read()
+    base_questions_file = open(base_questions_file_location, "r").read()
+
+    message = client.messages.create(
+        model="claude-3-opus-20240229",
+        max_tokens=1000,
+        temperature=0,
+        system="Based on the provided customer persona, job description, and interview questions, please complete the following tasks:\n\nSelect two questions from the base interview questions and two questions from the resume interview questions.\n\nFor each of the selected questions, provide an evaluation criteria in the form of one-line bullet points describing what constitutes a good response, an okay response, and a poor response.\n\nPlease structure your response as follows:\n\nCustomer Persona (Copy-Paste from Existing)\n\n[Copy and paste the persona description here]\n\nQuestion 1: [Insert the first selected question here]\n\nGood Response Criteria: [One-line bullet point describing a good response]\n\nOkay Response Criteria: [One-line bullet point describing an okay response]\n\nPoor Response Criteria: [One-line bullet point describing a poor response]\n\n...\n\nQuestion k: [Insert the kth selected question here]\n\nGood Response Criteria: [One-line bullet point describing a good response]\n\nOkay Response Criteria: [One-line bullet point describing an okay response]\n\nPoor Response Criteria: [One-line bullet point describing a poor response]",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": f"This is the persona:\n{persona_file}\nThis is the job summary:\n{job_summary_file}\nThis is the resume questions:\n{resume_questions_file}\nThis is the base questions:\n{base_questions_file}"
+                    }
+                ]
+            }
+        ]
+    )
+
     return message.content[0].text
 
 if __name__ == "__main__":
@@ -347,13 +379,30 @@ if __name__ == "__main__":
     #save_interview_questions(base_questions_df, "base_interview_questions.csv")
 
 
-    extract_text_from_df_resume("resumes/hirsh-ramani-resume.pdf", "resumes")
-    resume = open("resumes/text-files/hirsh-ramani-resume.txt", "r").read()
-    resume_questions = generate_interview_questions_resume(resume)
-    print(resume_questions)
+    # extract_text_from_df_resume("resumes/hirsh-ramani-resume.pdf", "resumes")
+    # resume = open("resumes/text-files/hirsh-ramani-resume.txt", "r").read()
+    # resume_questions = generate_interview_questions_resume(resume)
+    # print(resume_questions)
 
-    resume_questions_df = process_interview_questions(resume_questions, category='resume')
-    print(resume_questions_df)
+    # resume_questions_df = process_interview_questions(resume_questions, category='resume')
+    # print(resume_questions_df)
 
-    print("\nSaving resume-based interview questions...")
-    save_interview_questions(resume_questions_df, "resume_interview_questions.csv")
+    # print("\nSaving resume-based interview questions...")
+    # save_interview_questions(resume_questions_df, "resume_interview_questions.csv")
+
+    persona_file_location = "personas/individuals/emma-the-enthusiastic-networker.txt"
+    job_summary_file_location = "job-descriptions/text-files-processed/meta-sweml.txt"
+    resume_questions_file_location = "interview-questions/resume_interview_questions.csv"
+    base_questions_file_location = "interview-questions/base_interview_questions.csv"
+
+    response_guidelines = generate_persona_response_guidelines(persona_file_location,
+                                                                job_summary_file_location,
+                                                                resume_questions_file_location,
+                                                                base_questions_file_location)
+    print(response_guidelines)
+
+    # save the response as 'f{job_name}-response-guidelines.txt'
+
+    with open(f"{job_name}-response-guidelines.txt", "w") as file:
+        file.write(response_guidelines)
+    print(f"Response guidelines saved to {job_name}-response-guidelines.txt")

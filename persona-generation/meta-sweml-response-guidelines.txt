@@ -1,0 +1,71 @@
+Customer Persona (Copy-Paste from Existing)
+
+Emma is an extroverted, high-energy recruiter who thrives on making connections. She has a wide range of interests, from the latest industry trends to personal hobbies like yoga and travel. Her conversations are lively and engaging, as she enjoys getting to know candidates on a personal level. Emma's approach is all about building relationships and finding the perfect fit for both the company and the candidate.
+
+Question 1: Can you describe a complex software system you have worked on and the strategies you employed to ensure its reliability, scalability, and maintainability?
+
+Good Response Criteria: 
+- Provides a clear, detailed example of a complex software system they have worked on
+- Explains specific strategies used to ensure reliability, scalability, and maintainability
+- Demonstrates deep understanding of software engineering best practices and principles
+
+Okay Response Criteria:
+- Provides a somewhat clear example of a software system they have worked on, but may lack some details
+- Mentions some strategies for ensuring reliability, scalability, and maintainability, but may not go into depth
+- Shows a basic understanding of software engineering concepts
+
+Poor Response Criteria:
+- Struggles to provide a clear example of a complex software system they have worked on
+- Fails to articulate strategies for ensuring reliability, scalability, and maintainability
+- Demonstrates limited understanding of software engineering principles
+
+Question 2: How would you approach optimizing the throughput of attention mechanisms in large-scale language models, considering the trade-offs between computational efficiency and model performance?
+
+Good Response Criteria:
+- Demonstrates deep understanding of attention mechanisms and their role in large-scale language models
+- Proposes specific optimization strategies that balance computational efficiency and model performance
+- Shows ability to analyze trade-offs and make informed decisions based on project requirements
+
+Okay Response Criteria:
+- Shows some understanding of attention mechanisms and their importance in language models
+- Suggests general optimization approaches, but may not provide specific strategies
+- Acknowledges the trade-off between efficiency and performance, but may not delve into details
+
+Poor Response Criteria:
+- Displays limited knowledge of attention mechanisms and their significance in language models
+- Fails to propose any meaningful optimization strategies
+- Does not consider the trade-off between computational efficiency and model performance
+
+Question 3: Can you describe a challenging project or task you worked on during your internship at Signify, and how you approached and overcame any obstacles you faced?
+
+Good Response Criteria:
+- Provides a specific, detailed example of a challenging project or task from their internship
+- Clearly explains their approach to tackling the challenge and overcoming obstacles
+- Demonstrates problem-solving skills, resilience, and ability to learn from experiences
+
+Okay Response Criteria:
+- Describes a project or task from their internship, but may lack some specificity or detail
+- Briefly mentions their approach to the challenge, but may not elaborate on obstacles faced or solutions implemented
+- Shows some evidence of problem-solving abilities and perseverance
+
+Poor Response Criteria:
+- Struggles to recall or describe a challenging project or task from their internship
+- Fails to articulate their approach to the challenge or any obstacles encountered
+- Demonstrates limited problem-solving skills or ability to learn from experiences
+
+Question 4: As a Mechanical Engineering and Computer Science student, how do you plan to leverage your knowledge and skills from both disciplines to pursue opportunities in software development or mechanical engineering research?
+
+Good Response Criteria:
+- Articulates a clear vision for combining their mechanical engineering and computer science knowledge
+- Provides specific examples of how they plan to apply their interdisciplinary skills in software development or research
+- Demonstrates passion for leveraging their unique background to drive innovation and solve complex problems
+
+Okay Response Criteria:
+- Expresses a general interest in combining their mechanical engineering and computer science skills
+- Mentions potential applications of their interdisciplinary knowledge, but may lack specific examples
+- Shows some enthusiasm for leveraging their background, but may not have a clear vision for doing so
+
+Poor Response Criteria:
+- Struggles to articulate how they plan to combine their mechanical engineering and computer science knowledge
+- Fails to provide any examples of how they might apply their interdisciplinary skills in future opportunities
+- Demonstrates limited passion or vision for leveraging their unique background in their career pursuits
