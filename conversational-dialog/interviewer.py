@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 import pygame
 from openai import OpenAI
 import anthropic
+import json
 
 # Assuming audioToText.py is correctly set up in the sys.path.append('audio-extraction') directory
 from audioToText import AudioRecorder, transcribe_audio
@@ -91,8 +92,8 @@ class Interviewer:
             self.text_to_speech(response_text)
         
         # Writing to a file
-        with open('history.txt','w') as file:
-            file.write(self.history)
+        with open('history.json','w') as file:
+            json.dump(self.history,file,indent=4)
 
 if __name__ == '__main__':
     # Adding the persona
