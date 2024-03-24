@@ -1,0 +1,34 @@
+Manuscript: Interview with Candidate for Climate Program Manager at Watershed
+
+Introduction:
+Noah, an experienced recruiter, interviewed a candidate for the Climate Program Manager role at Watershed, a startup focused on corporate decarbonization. The interview aimed to assess the candidate's qualifications, experience, and fit for the position.
+
+Key Points:
+
+1. Prioritizing and aligning cross-functional teams:
+The candidate shared their experience working on a senior design automated foosball project, which required strong communication skills and collaboration between software and mechanical engineers. They emphasized the importance of clear communication, accommodating team members' needs, and ensuring a reliable final product.
+
+Rating: Good (8/10)
+
+2. Approach to prioritization and stakeholder buy-in:
+The candidate highlighted the importance of considering team members' strengths and passions when assigning tasks. They also mentioned focusing on delivering a minimum viable product (MVP) and then adding additional features. The candidate emphasized the importance of impact and budget when prioritizing initiatives and suggested using agile development, daily stand-ups, and a functional Slack channel to maintain communication and ensure stakeholder buy-in.
+
+Rating: Good (8/10)
+
+3. Excitement for the opportunity and passion for the environment:
+The candidate expressed genuine enthusiasm for the climate space and Watershed's mission, citing their personal connection to the environment through their upbringing in New England. They emphasized their desire to maintain a clean environment and their belief that their engineering skills could contribute to this goal.
+
+Rating: Good (9/10)
+
+4. Leveraging technical skills and interdisciplinary background:
+The candidate mentioned Watershed's dedication to providing clean water to underserved communities and expressed their desire to ensure water remains clean. They discussed utilizing their engineering skills to create mechanical systems that address problems at their root and create real-world value.
+
+Rating: Good (8/10)
+
+5. Experience as a co-founder and thriving in a startup environment:
+The candidate shared their experience as a co-founder of Trey's Amigos Landscaping, describing it as a hands-on, entrepreneurial venture. They highlighted the importance of an agile mindset, adaptability, and learning from failures in a startup environment.
+
+Rating: Okay (7/10)
+
+Conclusion:
+The candidate demonstrated a strong fit for the Climate Program Manager role at Watershed, showcasing their strategic mindset, technical expertise, and passion for the climate space. They provided thoughtful responses to questions about prioritization, stakeholder alignment, and leveraging their interdisciplinary background. While they could have provided more specific examples in some areas, their overall performance was impressive, and they would be an excellent candidate for the role.
