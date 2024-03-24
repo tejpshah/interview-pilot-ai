@@ -25,6 +25,7 @@ class Interviewer:
         self.recorder = AudioRecorder()
         pygame.mixer.init()
         self.playback_finished = threading.Event()
+        self.done = False
 
         # Appending the initial persona
         self.persona = persona
@@ -32,7 +33,8 @@ class Interviewer:
     def text_to_speech(self, text: str):
         try:
             speech = self.client_openai.audio.speech.create(model='tts-1', voice='alloy', input=text)
-            speech.stream_to_file("interviewer-speech.mp3")
+            with open("interviewer-speech.mp3", "wb") as f:
+                f.write(speech.content)
         except Exception as e:
             print(f"Error generating speech: {e}")
             return
@@ -43,11 +45,11 @@ class Interviewer:
                 pygame.mixer.music.play()
                 while pygame.mixer.music.get_busy():
                     pygame.time.Clock().tick(10)
-                    user_input = input("Type 'c' to continue: ")
+                    '''user_input = input("Type 'c' to continue: ")
                     if user_input == 'c':
                         print('continuing')
                         pygame.mixer.music.stop()
-                        break
+                        break'''
             except Exception as e:
                 print(f"Error playing audio: {e}")
             finally:
@@ -83,6 +85,26 @@ class Interviewer:
             os.remove(wav_filename)
         return text
 
+    def is_done(self, message):
+        response = self.client_claude.messages.create(
+            model="claude-3-opus-20240229",
+            max_tokens=1000,
+            temperature=0,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": f"Given this response, {message}, does it seem like the person wants to end the conversation? only give a 'yes' or a 'no' in that exact format"
+                        }
+                    ]
+                }
+            ]
+        )
+
+        return response.content[0].text.lower() == 'yes'
+
     def main(self):
         done = False
         while not done:
@@ -90,16 +112,18 @@ class Interviewer:
             user_speech = self.speech_to_text()
             #user_input = input("Enter something: ")
 
-            if user_speech.strip().lower() == 'i am done.':
+            if user_speech.strip().lower() == 'i am done.' or self.is_done(user_speech):
                 done = True
-                continue
 
             response_text = self.text_to_text(user_speech)
+            done = self.is_done(response_text)
+            print('Recruiter said: ' + response_text)
             self.text_to_speech(response_text)
         
         # Writing to a file
         with open('history1.json','w') as file:
             json.dump(self.history,file,indent=4)
+
 
 if __name__ == '__main__':
     # Adding the persona

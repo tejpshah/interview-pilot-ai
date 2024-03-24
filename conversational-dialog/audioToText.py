@@ -1,18 +1,16 @@
 import pyaudio
 import wave
 import numpy as np
-import whisper
+# import whisper
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-from pydub import AudioSegment
-import io
 
 class AudioRecorder:
-    def __init__(self, format=pyaudio.paInt16, channels=1, rate=8000, chunk_size=256, silence_threshold=300,
-                 silence_duration=5):
+    def __init__(self, format=pyaudio.paInt16, channels=1, rate=4000, chunk_size=256, silence_threshold=200,
+                 silence_duration=3):
         self.format = format
         self.channels = channels
         self.rate = rate
