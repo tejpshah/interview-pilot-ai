@@ -92,7 +92,7 @@ class Interviewer:
 
 if __name__ == '__main__':
     # Adding the persona
-    with open('test-persona-prompt.txt','r') as file:
+    with open('meta-sweml-response-guidelines.txt','r') as file:
         persona = file.read()
     interviewer = Interviewer(persona)
     interviewer.main()
