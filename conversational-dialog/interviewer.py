@@ -89,6 +89,10 @@ class Interviewer:
 
             response_text = self.text_to_text(user_speech)
             self.text_to_speech(response_text)
+        
+        # Writing to a file
+        with open('history.txt','w') as file:
+            file.write(self.history)
 
 if __name__ == '__main__':
     # Adding the persona
