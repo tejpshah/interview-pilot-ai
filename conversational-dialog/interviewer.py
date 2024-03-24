@@ -112,7 +112,7 @@ class Interviewer:
             user_speech = self.speech_to_text()
             #user_input = input("Enter something: ")
 
-            if user_speech.strip().lower() == 'i am done.' or self.is_done(user_speech):
+            if user_speech.strip(' ').lower() == 'i am done.' or self.is_done(user_speech):
                 done = True
 
             response_text = self.text_to_text(user_speech)
