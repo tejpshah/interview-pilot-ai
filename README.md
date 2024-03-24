@@ -1,2 +1,5 @@
-# phone-screen-agent
-HackRU Spring 2024
+# InterviewPilot.AI
+
+Interviewing is nerve-wracking, especially with the unpredictable back-and-forth you'll encounter. Our phone screen agent helps you prepare by creating an interactive, realistic practice experience tailored to the role you're pursuing. Provide your resume and the job details, and our AI will role-play as an interviewer - asking personalized questions based on your background, listening to your responses, and replying with intelligent follow-ups, just like a real interviewer would.
+
+But it gets even better. The agent can take on multiple distinct interviewer personas, from a fast-paced Wall Street type to a creative director, allowing you to prep for different styles and curveballs you may face. Unlike scripted practice, this dynamic interaction forces you to think critically and articulate your thoughts clearly. You can practiceas much as needed, honing your skills in a low-pressure environment before the real deal. With this tool, you'll walk into interviews calm, prepared and ready to genuinely converse and impress your potential employer.
