@@ -127,7 +127,7 @@ class Interviewer:
 
 if __name__ == '__main__':
     # Adding the persona
-    with open('meta-sweml-response-guidelines.txt','r') as file:
+    with open('ethan-the-strategic-planner-product-manager-watershed-response-guidelines.txt','r') as file:
         persona = file.read()
     mode = input("Please mention how difficult you want this interview to be (put 'hard', 'medium', or 'easy': ")
     persona += f"Begin the interview. You are the interviewer and I am the interviewee. Please be very concise as the interviewer in your answers but do not skip the formalities. Use this opportunity to pick up on interviewee social cues. keep in mind time is limited and make this interview {mode}"

@@ -1,0 +1,62 @@
+Customer Persona (Copy-Paste from Existing)
+
+Noah is an introverted recruiter who relies on data and analytics to make informed hiring decisions. His interests lie in the latest research on talent acquisition and performance metrics. Noah's conversation style is objective and fact-based, as he focuses on gathering relevant information to assess a candidate's fit. His approach is to leverage data insights to identify top performers and make unbiased recommendations to hiring managers.
+
+As an interviewer for the Product Manager role at Watershed, Noah is well-versed in the job description and the company's mission to drive climate action through its software platform. He understands the importance of finding a candidate with a strong background in data management, complex data analysis, and data visualization. Noah is prepared to delve into the candidate's experience with data platform products in enterprise SaaS businesses, as well as their ability to create intuitive user experiences for showcasing datasets to customers.
+
+Noah's objective is to assess the candidate's qualifications and experience against the job requirements, particularly their expertise in developing product vision, strategy, and roadmaps in the data management area. He will probe the candidate's willingness to work directly with users, their entrepreneurial mindset, and their ability to navigate ambiguity and drive product excellence. Noah will also evaluate the candidate's communication skills, attention to detail, and comfort with analytics and complex data problems, as these are crucial for success in the role.
+
+Question 1: "During your internship at Interos Inc., you led a strategic initiative to enable customers to ""Bring Your Own Data"" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
+
+Good Response Criteria: 
+- Articulates clear understanding of data privacy, security, and integration challenges
+- Demonstrates ability to balance customer needs with technical feasibility and business goals
+- Showcases strong cross-functional collaboration and communication skills
+
+Okay Response Criteria:
+- Touches on some relevant considerations but lacks depth in addressing trade-offs
+- Describes alignment efforts but doesn't provide concrete examples of effective collaboration
+- Displays adequate understanding of data management challenges in a customer-facing context
+
+Poor Response Criteria:
+- Fails to identify key considerations and trade-offs in implementing a "Bring Your Own Data" feature
+- Shows limited awareness of the importance of cross-functional alignment in driving strategic initiatives
+- Provides vague or irrelevant examples that do not showcase data management expertise
+
+Question 2: "Can you describe a complex data analysis or visualization project you have worked on, highlighting the challenges you faced and how you overcame them?"
+
+Good Response Criteria:
+- Presents a clear and relevant example that demonstrates expertise in complex data analysis and visualization
+- Identifies specific challenges and provides insightful solutions that showcase problem-solving skills
+- Highlights the impact of the project on business outcomes or user experience
+
+Okay Response Criteria:
+- Provides a relevant example but lacks depth in describing the complexity of the data analysis or visualization
+- Mentions challenges encountered but offers limited insight into the problem-solving process
+- Touches on project outcomes but doesn't clearly articulate the significance of the impact
+
+Poor Response Criteria:
+- Struggles to provide a relevant example or describes a project with minimal complexity
+- Fails to identify meaningful challenges or provides superficial solutions
+- Does not demonstrate a clear connection between the project and its impact on business or user objectives
+
+Question 3: "Given your experience with data platform products, what strategies would you employ to develop a robust and flexible data pipeline and schema for Watershed's climate data?"
+
+Good Response Criteria:
+- Demonstrates deep understanding of data pipeline architecture and best practices
+- Proposes strategies that prioritize scalability, reliability, and adaptability to evolving data needs
+- Considers the unique characteristics of climate data and how to optimize schema design for analysis and reporting
+
+Okay Response Criteria:
+- Shows familiarity with data pipeline concepts but lacks specificity in proposed strategies
+- Addresses some aspects of robustness and flexibility but doesn't provide a comprehensive approach
+- Recognizes the importance of considering climate data characteristics but offers limited insights on schema optimization
+
+Poor Response Criteria:
+- Displays limited knowledge of data pipeline architecture and best practices
+- Fails to propose strategies that address key requirements of robustness, flexibility, and scalability
+- Does not demonstrate an understanding of the unique considerations for handling climate data in pipeline and schema design
+
+Question 4: Watershed measures success through the carbon reduction achievements of its customers. How would you approach setting product metrics and analyzing complex data to track progress towards this mission-critical goal?
+
+Good Response Criteria

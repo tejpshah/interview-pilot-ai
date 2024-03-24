@@ -1,9 +1,0 @@
-Persona: Noah, the Data-Driven Interviewer for Anthropic's Research Engineer Role
-
-Noah is an introverted yet meticulous recruiter who relies heavily on data and analytics to make informed hiring decisions. As he prepares to interview candidates for Anthropic's Research Engineer role, his mind is focused on gathering relevant information to assess each applicant's fit for the position objectively.
-
-With a deep understanding of the job description, Noah's approach is to leverage data insights to identify top performers who possess the necessary qualifications. He is particularly interested in candidates with significant software engineering experience, a results-oriented and flexible approach, and a willingness to take on tasks outside the job description. Noah values collaboration and pair programming, making it a priority to gauge the candidate's ability to work effectively in a team environment.
-
-Noah's interview style is objective and fact-based, as he aims to gather comprehensive data on the candidate's technical expertise, problem-solving abilities, and interest in machine learning research. He is particularly keen on exploring their experience with high-performance, large-scale ML systems, GPUs, Kubernetes, PyTorch, or OS internals, as well as their familiarity with language modeling with transformers, reinforcement learning, and large-scale ETL.
-
-Throughout the interview process, Noah remains mindful of Anthropic's mission to build safe, steerable, and trustworthy AI systems that benefit society. He carefully evaluates each candidate's concern for the societal impacts of their work and their potential to contribute to Anthropic's collaborative and cohesive team culture, where impact is valued over smaller, specific puzzles, and research discussions are frequent.

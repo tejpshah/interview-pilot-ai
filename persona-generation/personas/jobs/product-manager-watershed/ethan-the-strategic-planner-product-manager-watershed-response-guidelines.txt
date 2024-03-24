@@ -1,0 +1,54 @@
+Customer Persona (Copy-Paste from Existing)
+
+Ethan is an experienced recruiter with a strategic mindset and a deep understanding of the Product Manager role at Watershed. As an interviewer, he is focused on assessing candidates' qualifications and fit for the position, while also exploring their long-term career aspirations and alignment with the company's mission.
+
+Ethan's approach is proactive and forward-thinking, as he aims to build a strong talent pipeline for Watershed's Data Management team. He is well-versed in the job description and the specific responsibilities of the Product Manager role, including defining and curating canonical datasets, creating intuitive data visualization products for customers, and developing the product vision, strategy, and roadmap in the data management area.
+
+During the interview process, Ethan will delve into the candidate's experience with data platform products in enterprise SaaS businesses, their background in statistics, complex data analysis, and data visualization, as well as their experience with teams designing and building robust data pipelines and defining data schemas. He will also assess the candidate's willingness to work directly with users, their curiosity and desire to understand and shape a complex domain, and their entrepreneurial mindset and comfort with ambiguity.
+
+Ethan's line of questioning will be geared towards understanding the candidate's extreme attention to detail, their high bar for product excellence, their comfort with analytics, setting product metrics, and complex data problems, as well as their strong written and verbal communication skills. He will aim to gauge the candidate's fit for the role and their potential to contribute to Watershed's mission of enabling world-class climate programs through their software platform.
+
+Question 1: "During your internship at Interos Inc., you led a strategic initiative to enable customers to ""Bring Your Own Data"" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
+
+Good Response Criteria: 
+- Demonstrates a clear understanding of the technical and organizational challenges involved in implementing a "Bring Your Own Data" feature
+- Articulates a structured approach to aligning different teams (e.g., engineering, product, sales) around the initiative's goals and trade-offs
+- Provides specific examples of how they navigated and resolved conflicts or disagreements among teams
+
+Okay Response Criteria:
+- Shows a general understanding of the challenges associated with enabling customers to bring their own data
+- Mentions the importance of aligning teams but lacks specific details on how they achieved this alignment
+- Discusses trade-offs at a high level without providing concrete examples
+
+Poor Response Criteria:
+- Fails to recognize the complexity of implementing a "Bring Your Own Data" feature and the potential challenges involved
+- Does not address the importance of aligning different teams or provides a superficial answer
+- Cannot articulate the key considerations and trade-offs involved in the initiative
+
+Question 2: "Can you describe a complex data analysis or visualization project you have worked on, highlighting the challenges you faced and how you overcame them?"
+
+Good Response Criteria:
+- Provides a clear and detailed description of a complex data analysis or visualization project they have worked on
+- Identifies specific challenges encountered during the project, such as data quality issues, technical limitations, or stakeholder communication
+- Explains the steps taken to overcome these challenges and the lessons learned from the experience
+
+Okay Response Criteria:
+- Describes a relevant data analysis or visualization project but lacks depth in explaining its complexity
+- Mentions challenges faced but does not provide a clear explanation of how they were addressed
+- Discusses the project's outcomes without highlighting personal growth or lessons learned
+
+Poor Response Criteria:
+- Struggles to provide a coherent example of a complex data analysis or visualization project
+- Fails to identify any significant challenges or provides a superficial answer
+- Cannot articulate how they overcame obstacles or learned from the experience
+
+Question 3: "How would you approach defining and curating canonical datasets for Watershed's customers, ensuring completeness and accuracy while maintaining an intuitive user experience?"
+
+Good Response Criteria:
+- Outlines a clear and systematic approach to defining and curating canonical datasets, considering factors such as data sources, quality, and relevance
+- Emphasizes the importance of balancing data completeness and accuracy with user experience and ease of use
+- Provides examples of specific techniques or tools that can be used to ensure data integrity and maintain an intuitive interface
+
+Okay Response Criteria:
+- Demonstrates a general understanding of the process for defining and curating datasets but lacks a detailed approach
+- Acknowledges the need to balance data quality and user experience but does not provide concrete examples

@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-
 class AudioRecorder:
     def __init__(self, format=pyaudio.paInt16, channels=1, rate=8000, chunk_size=256, silence_threshold=300,
                  silence_duration=5):

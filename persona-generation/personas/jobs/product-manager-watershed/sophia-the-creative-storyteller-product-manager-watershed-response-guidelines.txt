@@ -1,0 +1,64 @@
+Customer Persona (Copy-Paste from Existing)
+
+Sophia's eyes sparkled with excitement as she reviewed the job description for the Product Manager role at Watershed. As an extroverted recruiter with a passion for storytelling, she couldn't wait to dive into the company's narrative and uncover the perfect candidate to drive their mission forward.
+
+With a diverse range of interests spanning art, design, psychology, and human behavior, Sophia was well-equipped to understand the nuances of the role and the unique blend of skills required. She envisioned herself weaving together the company's brand narrative with the candidate's unique story, creating a memorable experience that would resonate with both parties.
+
+Sophia's approach was to delve deep into the job description, understanding the key responsibilities and qualifications required for the position. She would then craft a series of engaging questions and anecdotes that would not only assess the candidate's technical expertise but also their ability to think strategically, collaborate cross-functionally, and align with Watershed's mission of driving meaningful carbon reduction.
+
+As an interviewer, Sophia's goal was to create an environment where the candidate felt comfortable sharing their experiences and showcasing their passion for the role. She would use her storytelling skills to paint a vivid picture of Watershed's culture, values, and the impact the Product Manager would have on shaping the company's future.
+
+Question 1: "During your internship at Interos Inc., you led a strategic initiative to enable customers to ""Bring Your Own Data"" for personalized risk assessment. What were the main considerations and trade-offs you had to navigate while aligning different teams on this initiative?"
+
+Good Response Criteria: 
+- Articulates clear understanding of the technical and organizational challenges involved
+- Demonstrates ability to balance customer needs with internal constraints and priorities
+- Showcases strong cross-functional collaboration and communication skills
+
+Okay Response Criteria:
+- Identifies some key considerations and trade-offs, but lacks depth or specificity
+- Mentions aligning teams, but doesn't provide concrete examples of how this was achieved
+- Focuses more on technical aspects and less on the strategic and collaborative elements
+
+Poor Response Criteria:
+- Struggles to identify or articulate the main considerations and trade-offs
+- Fails to address the importance of aligning different teams or navigating organizational challenges
+- Provides a superficial or overly technical response that lacks strategic insight
+
+Question 2: "How would you approach defining and curating canonical datasets for Watershed's customers, ensuring completeness and accuracy while maintaining an intuitive user experience?"
+
+Good Response Criteria:
+- Outlines a clear and structured approach to defining and curating datasets
+- Emphasizes the importance of balancing data completeness and accuracy with user experience
+- Demonstrates understanding of the unique challenges and opportunities in the climate data domain
+
+Okay Response Criteria:
+- Provides a general approach to dataset curation, but lacks specificity to Watershed's context
+- Mentions completeness, accuracy, and user experience, but doesn't delve into how to balance them
+- Shows some understanding of data management principles, but lacks depth in the climate domain
+
+Poor Response Criteria:
+- Fails to articulate a coherent approach to defining and curating datasets
+- Neglects to address the importance of completeness, accuracy, or user experience
+- Demonstrates limited understanding of data management principles or the climate data domain
+
+Question 3: "Given your experience with data platform products, what strategies would you employ to develop a robust and flexible data pipeline and schema for Watershed's climate data?"
+
+Good Response Criteria:
+- Draws upon relevant experience to propose specific strategies for data pipeline and schema design
+- Demonstrates understanding of the unique characteristics and challenges of climate data
+- Emphasizes the importance of robustness, flexibility, and scalability in the data platform
+
+Okay Response Criteria:
+- Provides some relevant strategies, but lacks specificity or depth in how they would be applied
+- Shows general understanding of data platform principles, but limited insight into climate data nuances
+- Mentions robustness and flexibility, but doesn't elaborate on how to achieve them in practice
+
+Poor Response Criteria:
+- Struggles to propose coherent or relevant strategies for data pipeline and schema design
+- Fails to demonstrate understanding of the unique challenges and requirements of climate data
+- Neglects to address the importance of robustness, flexibility, or scalability in the data platform
+
+Question 4: Watershed measures success through the carbon reduction achievements of its customers. How would you approach setting product metrics and analyzing complex data to track progress towards this mission-critical goal?
+
+Good Response Criteria:

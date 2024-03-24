@@ -1,0 +1,39 @@
+# About the Company
+
+- Watershed is a software platform for running a world-class climate program
+- Measures success in the carbon reduction achievements of customers
+- Has offices in San Francisco, New York, and London, as well as remote team members across the US and Europe
+
+# Role Overview
+
+- Product Managers are responsible for uniting all aspects of the product under a cohesive vision and execution plan
+- Cross-functional role working with users, Engineering, Design, Climate Science, Operations, Customer Success, and more
+- Accountable for delivering results and driving progress towards the company's mission
+
+# Key Responsibilities
+
+- Be a senior product manager for the Data Management team, responsible for defining and viewing canonical datasets
+- Create products showcasing datasets to customers with intuitive UX, and curate them for completeness and accuracy
+- Develop product vision, strategy, and roadmap in the data management area
+- Ship products that customers rave about
+- Share and align strategy across the greater product portfolio
+- Cultivate strong relationships with cross-functional teams
+- Collaborate with the technical team to ensure execution in support of the strategy
+
+# Qualifications and Experience
+
+- 5-8 years of product management experience in B2B SaaS
+- Experience with data platform products in enterprise SaaS businesses
+- Background in statistics, complex data analysis, and/or data visualization
+- Experience with data products that drive insight
+- Experience with teams designing and building robust and flexible data pipelines and defining data schemas
+- Willingness to work directly with users to build the right product
+- Curiosity and desire to understand and shape a complex domain
+- Entrepreneurial mindset, comfortable with ambiguity and getting work done
+- Extreme attention to detail and a high bar for product excellence
+- Comfortable with analytics, setting product metrics, and complex data problems
+- Strong written and verbal communication skills
+
+# Salary Range
+
+- $171,000 - $216,600 USD, in addition to a total rewards benefit package
