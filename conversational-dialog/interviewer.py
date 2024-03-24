@@ -43,10 +43,11 @@ class Interviewer:
                 pygame.mixer.music.play()
                 while pygame.mixer.music.get_busy():
                     pygame.time.Clock().tick(10)
-                    '''user_input = input("Enter something: ")
-                    if user_input == 'q':
+                    user_input = input("Type 'c' to continue: ")
+                    if user_input == 'c':
+                        print('continuing')
                         pygame.mixer.music.stop()
-                        break'''
+                        break
             except Exception as e:
                 print(f"Error playing audio: {e}")
             finally:
@@ -97,12 +98,13 @@ class Interviewer:
             self.text_to_speech(response_text)
         
         # Writing to a file
-        with open('history.json','w') as file:
+        with open('history1.json','w') as file:
             json.dump(self.history,file,indent=4)
 
 if __name__ == '__main__':
     # Adding the persona
     with open('meta-sweml-response-guidelines.txt','r') as file:
         persona = file.read()
+    persona += "Begin the interview. You are the interviewer and I am the interviewee. Please be concise as the interviewer, as time is of the essence."
     interviewer = Interviewer(persona)
     interviewer.main()

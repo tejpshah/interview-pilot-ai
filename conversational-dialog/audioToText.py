@@ -3,6 +3,12 @@ import wave
 import numpy as np
 import whisper
 import os
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+from pydub import AudioSegment
+import io
 
 
 class AudioRecorder:
@@ -53,6 +59,24 @@ class AudioRecorder:
         wf.close()
         return filename
 
+    '''def save_recording(self, frames, filename="temp.mp3"):
+        """Save the recorded audio to an MP3 file."""
+        # Combine frames into a bytes object
+        combined_frames = b''.join(frames)
+
+        # Convert the bytes to an audio segment
+        audio_segment = AudioSegment(
+            data=combined_frames,
+            sample_width=self.audio_interface.get_sample_size(self.format),
+            frame_rate=self.rate,
+            channels=self.channels
+        )
+
+        # Export the audio segment to an MP3 file
+        audio_segment.export(filename, format="mp3")
+        return filename'''
+
+
     def close(self):
         """Close PyAudio interface."""
         self.audio_interface.terminate()
@@ -60,10 +84,20 @@ class AudioRecorder:
 
 def transcribe_audio(filename):
     """Transcribe audio file using Whisper."""
-    model = whisper.load_model("base")
+    audio_file = open(filename, "rb")
+    transcription = client.audio.transcriptions.create(
+        model="whisper-1",
+        file=audio_file,
+        response_format="text"
+    )
+    # Print the transcription text
+    print('You said: ' + transcription)
+    return transcription
+
+    '''model = whisper.load_model("base")
     result = model.transcribe(filename)
     print("Transcription:", result["text"])
-    return result["text"]
+    return result["text"]'''
 
 
 if __name__ == "__main__":
@@ -74,7 +108,7 @@ if __name__ == "__main__":
         text = transcribe_audio(wav_filename)
 
         # Save transcription to a text file
-        text_filename = 'audio-extraction/tejEats.txt'  #datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + "_transcription.txt"
+        text_filename = '/Users/hirshramani/PycharmProjects/phone-screen-agent/conversational-dialog/audio-extraction/temp.mp3'  #datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + "_transcription.txt"
         with open(text_filename, 'w') as f:
             f.write(text)
         print(f"Transcription saved to {text_filename}")
