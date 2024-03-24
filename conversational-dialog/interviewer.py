@@ -96,7 +96,7 @@ class Interviewer:
                     "content": [
                         {
                             "type": "text",
-                            "text": f"Given this response, {message}, does it seem like the person wants to end the conversation? only give a 'yes' or a 'no' in that exact format"
+                            "text": f"Given this response, {message}, does it seem like the person wants to end the conversation immediately? only give a 'yes' or a 'no' in that exact format"
                         }
                     ]
                 }
@@ -129,6 +129,8 @@ if __name__ == '__main__':
     # Adding the persona
     with open('meta-sweml-response-guidelines.txt','r') as file:
         persona = file.read()
-    persona += "Begin the interview. You are the interviewer and I am the interviewee. Please be concise as the interviewer, as time is of the essence."
+    mode = input("Please mention how difficult you want this interview to be (put 'hard', 'medium', or 'easy': ")
+    persona += f"Begin the interview. You are the interviewer and I am the interviewee. Please be very concise as the interviewer in your answers but do not skip the formalities. Use this opportunity to pick up on interviewee social cues. keep in mind time is limited and make this interview {mode}"
     interviewer = Interviewer(persona)
+    print('Interview is beginning. Say hello!')
     interviewer.main()
