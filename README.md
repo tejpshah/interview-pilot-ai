@@ -6,7 +6,7 @@ Interviewing is nerve-wracking, especially with the unpredictable back-and-forth
 But it gets even better. The agent can take on multiple distinct interviewer personas, from a fast-paced Wall Street type to a creative director, allowing you to prep for different styles and curveballs you may face. Unlike scripted practice, this dynamic interaction forces you to think critically and articulate your thoughts clearly. You can practiceas much as needed, honing your skills in a low-pressure environment before the real deal. With this tool, you'll walk into interviews calm, prepared and ready to genuinely converse and impress your potential employer.
 
 ## How we built it
-We integrated OpenAI's Whisper for speech-to-text transcription and the Text-to-Speech model for voice synthesis with Anthropic's Claude3 LLM (Opus/Sonnet/Haioku). Python code orchestrates data processing pipelines:
+We integrated OpenAI's Whisper for speech-to-text transcription and the Text-to-Speech model for voice synthesis with Anthropic's Claude3 LLM (Opus/Sonnet/Haiku). Python code orchestrates data processing pipelines:
 - Extract text from job descriptions/resumes using PyPDF2.
 - Use Claude to generate distinct interviewer persona descriptions.
 - Fuse personas with job details using Claude's few-shot learning.
