@@ -2,7 +2,7 @@
 
 - https://devpost.com/software/interviewpilot-ai?ref_content=user-portfolio&ref_feature=in_progress
 
-- Anthropic Build with Claude Winner: https://x.com/alexalbert__/status/1783604747494388168 
+- Anthropic Build with Claude Winner: [https://x.com/alexalbert__/status/1783604747494388168 ](https://twitter.com/alexalbert__/status/1783604747494388168)
 
 ## Description
 Interviewing is nerve-wracking, especially with the unpredictable back-and-forth you'll encounter. Our phone screen agent helps you prepare by creating an interactive, realistic practice experience tailored to the role you're pursuing. Provide your resume and the job details, and our AI will role-play as an interviewer - asking personalized questions based on your background, listening to your responses, and replying with intelligent follow-ups, just like a real interviewer would.
