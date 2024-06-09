@@ -11,7 +11,7 @@ But it gets even better. The agent can take on multiple distinct interviewer per
 
 ## Instructions
 
-To practice your interview skills using our tool, you need to follow the following steps (obviously, you need to clone the repository first):
+To practice your interview skills using our tool, you need to follow the following steps (obviously, you need to clone the repository first. It also might be beneficial to create a separate virtual environment to avoid conflicts with other projects):
 
 1. Install all requirements:
 ```
