@@ -1,0 +1,9 @@
+anthropic==0.28.0
+numpy==1.26.4
+openai==1.33.0
+pandas==2.2.2
+pyaudio==0.2.14
+pygame==2.5.2
+PyPDF2==1.26.0
+python-dotenv==1.0.1
+tqdm==4.66.4
