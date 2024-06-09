@@ -13,12 +13,17 @@ But it gets even better. The agent can take on multiple distinct interviewer per
 
 To practice your interview skills using our tool, you need to follow the following steps (obviously, you need to clone the repository first):
 
-1. Create a .env file within conversational-dialog. This file will hold your OpenAI API key and your Anthropic API key. For example, here is what your .env file should look like:
+1. Install all requirements:
+```
+pip install -r requirements.txt
+```
+
+2. Create a .env file within conversational-dialog. This file will hold your OpenAI API key and your Anthropic API key. For example, here is what your .env file should look like:
 ```
 OPENAI_API_KEY=<your API Key>
 ANTHROPIC_API_KEY=<your API Key>
 ```
-2. Once you have the .env file set-up, you can run interviewer.py file like so:
+3. Once you have the .env file set-up, you can run interviewer.py file like so:
 ```
 python3 interviewer.py
 ```
